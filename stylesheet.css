@@ -1,4 +1,35 @@
 *{
 	font-family: helvetica, sans serif;
-	font-size: 14px;
+}
+
+html, body {
+	margin: 0 auto;
+}
+
+/*PLACEHOLDER BOX*/
+.placeholder {
+	width: 200px;
+	height: 200px;
+	border: solid 2px black;
+
+}
+
+/*GRID CONTAINER*/
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background: pink;
+	padding: 10px;
+
+}
+
+/*GRID ITEMS*/
+
+.grid-item {
+	background-color: red;
+	border: solid 1px black;
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
 }
