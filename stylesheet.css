@@ -17,7 +17,7 @@
 @font-face {
 	font-family: raisonne;
 	src: url(fonts/Raisonne_Demibold.eot);
-	src: url(fonts/Raisonne_Demibold.woff) format('woff'), url(fonts/Raisonne_Demibold.ttf) format('truetype'), url(fonts/Raisonne_Demibold.svg) format('svg'), local('Raisonne_Demibold'), local('Raisonne_Demibold'), url('fonts/Raisonne_Demibold.eot');
+	src: url(fonts/Raisonne_Demibold.woff) format('woff'), url(fonts/Raisonne_Demibold.ttf) format('truetype'), url(fonts/Raisonne_Demibold.svg) format('svg'), local('Raisonne'), local('Raisonne_Demibold'), url('fonts/Raisonne_Demibold.eot');
 }
 
 h1 {
