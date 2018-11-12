@@ -10,16 +10,18 @@
 
 @font-face {
     font-family: inconsolata;
-    src: url(fonts/insconsolata.otf);
+    src: url(fonts/insconsolata.eot);
+		src: url(fonts/Inconsolata.woff) format('woff'), url(fonts/Inconsolata.ttf) format('truetype'), url(fonts/Inconsolata.svg) format('svg');
 }
 
 @font-face {
 	font-family: raisonne;
-	src: url(fonts/raisonne_demibold.otf);
+	src: url(fonts/raisonne_demibold.eot);
+	src: url(fonts/raisonne_demibold.woff) format('woff'), url(fonts/raisonne_demibold.ttf) format('truetype'), url(fonts/raisonne_demibold.svg) format('svg');
 }
 
 h1 {
-	font-family: raisonne;
+	font-family: raisonne, sans-serif;;
 	font-size: 46px;
 }
 
