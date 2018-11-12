@@ -12,12 +12,14 @@
     font-family: inconsolata;
     src: url(fonts/insconsolata.eot);
 		src: url(fonts/Inconsolata.woff) format('woff'), url(fonts/Inconsolata.ttf) format('truetype'), url(fonts/Inconsolata.svg) format('svg');
+		src: local('Inconsolata'), local('Inconsolata'), url('fonts/insconsolata.eot');
 }
 
 @font-face {
 	font-family: raisonne;
 	src: url(fonts/raisonne_demibold.eot);
 	src: url(fonts/raisonne_demibold.woff) format('woff'), url(fonts/raisonne_demibold.ttf) format('truetype'), url(fonts/raisonne_demibold.svg) format('svg');
+	src: local('Raisonne'), local('Raisonne_Demibold'), url('fonts/raisonne_demibold.eot');
 }
 
 h1 {
