@@ -3,6 +3,7 @@
 :root {
 	--fpo-bg-color: #e1e1e1;
 	--fpo-bg2-color:#a9a9a9;
+	--body: inconsolata;
 }
 
 /*RULES*/
@@ -12,15 +13,26 @@
     src: url(fonts/insconsolata.otf);
 }
 
-/*HTML*/
+@font-face {
+	font-family: raisonne;
+	src: url(fonts/raisonne_demibold.otf);
+}
 
-*{
-	font-family: helvetica, sans serif;
+h1 {
+	font-family: raisonne;
+	font-size: 46px;
 }
 
 p {
 	font-family: inconsolata, monospace;
+	font-size: 18px;
 }
+
+a {
+	font-family: inconsolata, monospace;
+	font-size: 18px;}
+
+/*HTML*/
 
 html, body {
 	margin: 0 auto;
@@ -75,7 +87,6 @@ html, body {
 	margin: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	border: solid 1px black;
 }
 
 .global-nav li{
@@ -122,7 +133,9 @@ html, body {
 }
 
 .footer-text{
+	width: 850px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: left;
+	font-size: 14px;
 }
