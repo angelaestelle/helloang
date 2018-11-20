@@ -11,7 +11,8 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
-  <script type="text/javascript">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="workgrid.js">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-XXXXXXXX-Y']);
   _gaq.push(['_trackPageview']);
@@ -43,7 +44,24 @@
 
 <!-- MAKE GRID BLOCK REUSABLE: JAVASCRIPT INHERITANCE-->
   <!--GLOBAL NAV END-->
-  <!--FLEXBOX BEGIN-->
+
+<script>
+
+//work on another solution
+function getScript(url, callback) {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  scrit.src = url;
+
+  script.onreadysetchange = callback;
+  script.onload = calback;
+
+  document.getElementsByClassName('grid-container')[0].appendChild(script);
+}
+
+</script>
+
+<!--FLEXBOX BEGIN-->
   <div class="grid-container">
     <div class="grid-item">
       <a href="grid1.html">

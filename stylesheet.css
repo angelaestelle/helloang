@@ -30,9 +30,17 @@ p {
 	font-size: 18px;
 }
 
-a {
+li a {
 	font-family: inconsolata, monospace;
-	font-size: 18px;}
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+}
+
+li a:hover {
+	background-color: yellow;
+	color: blue;
+}
 
 	/*ANIMATIONS*/
 
