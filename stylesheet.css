@@ -192,11 +192,17 @@ li a {
 	/*GRID PAGES*/
 
 	.content-container {
+		width: 150%;
 		display: flex;
+		flex-wrap: wrap;
 	}
 
 	.content-container img {
-		padding-right: 5px;
+		width: 25%;
+		padding-right: 15px;
+		padding-top: 10px;
+		flex-wrap: wrap;
+
 	}
 
 	/*GLOBAL FOOTER*/
