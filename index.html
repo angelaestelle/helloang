@@ -11,7 +11,8 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
-  <script type="text/javascript">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="workgrid.js">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-XXXXXXXX-Y']);
   _gaq.push(['_trackPageview']);
@@ -29,14 +30,16 @@
 
     <nav class="global-nav">
       <ul>
-        <li><a href="#">Work</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a class="nav-link" href="index.html">Work</a></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
       </ul>
     </nav>
 
     <div class="header-content">
-      <h1>Help my name is Angela Martinez I want to eat pizza rn</h1>
+      <h1>Hi! My name is Angela Martinez.</h1>
       <p>I'm a digital designer and front-end developer from Vancouver, Canada. Currently I work as an experience designer at Best Buy's Canadian HQ.</p>
+      <p>
+      <small>*Sorry (especially mobile users), this is still kind of totally under construction.</small></p>
     </div>
   </div>
 
@@ -44,7 +47,6 @@
 <!-- MAKE GRID BLOCK REUSABLE: TEMPLATE INHERITANCE-->
   <!--GLOBAL NAV END-->
   <!--FLEXBOX BEGIN-->
-  <template id="work-grid">
   <div class="grid-container">
     <div class="grid-item">
       <a href="grid1.html">
@@ -71,16 +73,15 @@
       </a>
     </div>
   </div>
-</template>
 
   <footer class="global-footer">
     <div class="wrapper">
       <div class="footer-container">
         <ul>
-          <li><a href="">Footer Link 1</a></li>
-          <li><a href="">Footer Link 2</a></li>
+          <li><a class="footer-link" href="https://twitter.com/angelaestelle">Twitter</a></li>
+          <li ><a class="footer-link" href="https://www.instagram.com/angelaestelle">Instagram</a></li>
         </ul>
-        <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        <p class="footer-text">Site & content built by Angela Martinez</p>
       </div>
     </div>
   </footer>

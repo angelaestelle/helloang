@@ -22,17 +22,21 @@
 
 h1 {
 	font-family: raisonne, sans-serif;;
-	font-size: 46px;
+	font-size: 48px;
+	color: #ff5252;
 }
 
 p {
 	font-family: inconsolata, monospace;
-	font-size: 18px;
+	font-size: 20px;
 }
 
-a {
+li a {
 	font-family: inconsolata, monospace;
-	font-size: 18px;}
+	font-size: 20px;
+	text-decoration: none;
+}
+
 
 	/*ANIMATIONS*/
 
@@ -46,12 +50,28 @@ a {
 		}
 	}
 
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+
 	/*HTML*/
 
 	html, body {
 		margin: 0 auto;
 		min-height: 100%;
 		max-height: 100%;
+	}
+
+	body {
+		background: #fff;
+		animation-name: fadeIn;
+		animation-duration: 2s;
+		animation-fill-mode: forwards;
 	}
 
 	/*PLACEHOLDER BOX*/
@@ -64,6 +84,7 @@ a {
 
 	/*WRAPPER*/
 	.wrapper {
+		position:relative;
 		min-height: 100%;
 		margin: 0 auto;
 		width: 1024px;
@@ -97,7 +118,6 @@ a {
 		max-width: 100%;
 		min-height: 100%;
 
-
 	}
 
 	.work-img:hover {
@@ -122,6 +142,11 @@ a {
 		visibility: visible;
 	}
 
+	.static-img {
+		max-width: 100%;
+		min-height: 100%;
+	}
+
 	/*GLOBAL NAVIGATION*/
 
 	.global-nav {
@@ -143,6 +168,10 @@ a {
 
 	}
 
+	.nav-link {
+		color: black;
+	}
+
 	/*HEADER CONTENT*/
 	.header-content{
 		text-align: left;
@@ -159,18 +188,19 @@ a {
 
 	.global-footer {
 		width: 100%;
-		display: inline-block;
-		position: relative;
+		display: block;
+		position: sticky;
 		text-align: center;
 		justify-content: center;
 		margin: 0;
-		background: var(--fpo-bg2-color);
+		background: #ff5252;
 		height: 200px;
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
 
 	.global-footer li{
+		color: white;
 		display: inline;
 		list-style-type: none;
 		padding-left: 15px;
@@ -178,10 +208,15 @@ a {
 
 	}
 
+	.footer-link {
+		color: white;
+	}
+
 	.footer-text{
-		width: 850px;
+		color: #fff;
+		padding-left: 15px;
 		padding-top: 20px;
 		padding-bottom: 20px;
-		text-align: left;
-		font-size: 14px;
+		text-align: center;
+		font-size: 18px;
 	}
