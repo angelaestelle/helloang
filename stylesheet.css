@@ -176,7 +176,8 @@ li a {
 	.header-content{
 		text-align: left;
 		width: 850px;
-		height: 450px;
+		height: 60%;
+		padding-bottom: 200px;
 		background-color: var(fpo--bg2-color);
 	}
 
