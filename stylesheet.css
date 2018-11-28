@@ -31,6 +31,10 @@ p {
 	font-size: 20px;
 }
 
+.small{
+	font-size: 14px;
+}
+
 li a {
 	font-family: inconsolata, monospace;
 	font-size: 20px;
