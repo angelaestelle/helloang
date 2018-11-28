@@ -189,6 +189,16 @@ li a {
 		padding-top: 100px;
 	}
 
+	/*GRID PAGES*/
+
+	.content-container {
+		display: flex;
+	}
+
+	.content-container img {
+		padding-right: 5px;
+	}
+
 	/*GLOBAL FOOTER*/
 
 	.global-footer {
