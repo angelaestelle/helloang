@@ -183,7 +183,7 @@ a {
 	/*HEADER CONTENT*/
 	.header-content{
 		text-align: left;
-		width: 850px;
+		width: 1080px;
 		height: 60%;
 		padding-bottom: 200px;
 		background-color: var(fpo--bg2-color);
@@ -213,11 +213,13 @@ a {
 
 	.work-header-content{
 		text-align: left;
-		width: 850px;
+		width: 1080px;
 		height: 60%;
 		padding-bottom: 85px;
 		background-color: var(fpo--bg2-color);
 	}
+
+
 
 	/*GLOBAL FOOTER*/
 
