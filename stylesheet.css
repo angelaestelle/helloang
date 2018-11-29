@@ -43,8 +43,12 @@ li a {
 
 a {
 	text-decoration: none;
+	color: black;
 }
 
+a:hover{
+	text-decoration: underline;
+}
 
 	/*ANIMATIONS*/
 
