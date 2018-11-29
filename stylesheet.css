@@ -41,6 +41,10 @@ li a {
 	text-decoration: none;
 }
 
+a {
+	text-decoration: none;
+}
+
 
 	/*ANIMATIONS*/
 
@@ -91,7 +95,7 @@ li a {
 		position:relative;
 		min-height: 100%;
 		margin: 0 auto;
-		width: 1024px;
+		width: 1280px;
 		justify-content: center;
 	}
 
@@ -189,20 +193,30 @@ li a {
 		padding-top: 100px;
 	}
 
+
 	/*GRID PAGES*/
 
 	.content-container {
-		width: 150%;
+		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
+		padding-bottom: 100px;
+		padding-top: -100px;
 	}
 
 	.content-container img {
-		width: 25%;
 		padding-right: 15px;
 		padding-top: 10px;
 		flex-wrap: wrap;
 
+	}
+
+	.work-header-content{
+		text-align: left;
+		width: 850px;
+		height: 60%;
+		padding-bottom: 85px;
+		background-color: var(fpo--bg2-color);
 	}
 
 	/*GLOBAL FOOTER*/
