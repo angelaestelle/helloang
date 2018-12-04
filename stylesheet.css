@@ -21,7 +21,7 @@
 }
 
 h1 {
-	font-family: raisonne, sans-serif;;
+	font-family: raisonne, sans-serif;
 	font-size: 48px;
 	color: #ff5252;
 }
@@ -72,6 +72,7 @@ a:hover{
 	}
 
 	/*HTML*/
+
 
 	html, body {
 		margin: 0 auto;
@@ -263,6 +264,7 @@ a:hover{
 
 /*MEDIA QUERIES*/
 
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	html, body {
@@ -318,8 +320,6 @@ table {
 	height: auto;
 	display: block;
 	background-size: contain;
-	border: solid 0px white;
-	outline-offset: 0px;
 	padding: -10px;
 }
 
@@ -353,8 +353,8 @@ table {
 }
 }
 
-/* Extra small devices (phones, 768px and under) */
-@media only screen and (max-width: 768px) {
+/* Extra small devices (phones, 600px and up) */
+@media only screen and (min-width: 600px) {
 	html, body {
 		margin: 0 auto;
 	}
@@ -372,12 +372,12 @@ table {
 table {
 	width: 100px;
 }
+
 	.wrapper {
 		margin: 0 auto;
 		width: 90%;
 		min-height: 100%;
 	}
-
 
 	.work-header-content {
 		text-align: left;
@@ -390,7 +390,7 @@ table {
 		text-align: left;
 		width: 100%;
 		height: 100%;
-		padding-bottom: 100px;
+		padding-bottom: 225px;
 		background-color: var(fpo--bg2-color);
 	}
 
@@ -398,11 +398,17 @@ table {
 		padding-top: 50px;
 	}
 
+	.grid-container {
+		display: flex;
+		grid-template-columns: auto auto auto auto;
+}
 
 .grid-item {
 	width: 100%;
 	height: auto;
+	display: block;
 	margin-bottom: -20px;
+	background-size: contain;
 }
 
 .content-container {
@@ -420,7 +426,7 @@ table {
 	display: block;
 	position: sticky;
 	background: #ff5252;
-	height: 150px;
+	height: 200px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 
@@ -435,7 +441,8 @@ table {
 }
 }
 
-/* Extra small devices (phones, 768px and up) */
+
+/* Extra small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	html, body {
 		margin: 0 auto;
@@ -503,6 +510,88 @@ table {
 	position: sticky;
 	background: #ff5252;
 	height: 150px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.footer-text{
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+}
+
+/* Extra small devices (desktop, 1024 and up) */
+@media only screen and (min-width: 1024px) {
+	html, body {
+		margin: 0 auto;
+	}
+
+	h1 {
+		font-size: 42px;
+	}
+
+	li a {
+	font-family: inconsolata, monospace;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+table {
+	width: 100px;
+}
+	.wrapper {
+		margin: 0 auto;
+		width: 90%;
+		min-height: 100%;
+	}
+
+
+	.work-header-content {
+		text-align: left;
+		width: 100%;
+		height: 100%;
+		padding-bottom: 100px;
+	}
+
+	.header-content{
+		text-align: left;
+		width: 100%;
+		height: 100%;
+		padding-bottom: 100px;
+		background-color: var(fpo--bg2-color);
+	}
+
+	.header-content h1{
+		padding-top: 50px;
+	}
+
+
+.grid-item {
+	width: 100%;
+	height: auto;
+	margin-bottom: -20px;
+}
+
+.content-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 100px;
+	padding-top: -100px;
+}
+.content-container img {
+	flex-wrap: wrap;
+}
+
+.global-footer {
+	width: 100%;
+	display: block;
+	position: sticky;
+	background: #ff5252;
+	height: 225px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 
