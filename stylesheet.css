@@ -479,7 +479,7 @@ table {
 		text-align: left;
 		width: 100%;
 		height: 100%;
-		padding-bottom: 190px;
+		padding-bottom: 250px;
 		background-color: var(fpo--bg2-color);
 	}
 
@@ -599,7 +599,7 @@ table {
 
 .footer-text{
 	color: #fff;
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
 	font-size: 18px;
