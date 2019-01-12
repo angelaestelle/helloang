@@ -101,20 +101,6 @@ body {
   animation-fill-mode: forwards;
 }
 
-/*PLACEHOLDER BOX*/
-.placeholder {
-  height: 300px;
-  background-color: #cfc8d2;
-  border-radius: 8px;
-  box-shadow: none;
-  margin: 5px;
-
-}
-
-.placeholder:hover {
-  animation-name: nudge;
-  animation-fill-mode: forwards;
-}
 
 /*WRAPPER*/
 .wrapper {
@@ -143,16 +129,32 @@ body {
   right: 0;
   overflow: hidden;
   width: 100%;
-  height: 100%; 100%;
+  height: 100%;
   border-radius: inherit;
 }
 /*add a class for img otherwise it'll get messy ha*/
 
+.item {
+	max-width: 500px;
+  max-height: 500px;
+  background-color: #cfc8d2;
+  border-radius: 8px;
+  box-shadow: none;
+  margin: 5px;
+
+}
+
+.item:hover {
+  animation-name: nudge;
+  animation-fill-mode: forwards;
+}
+
 .grid-img{
   position: relative;
-  background-size: cover;
-  width: inherit;
+  background-size: 100%;
+	width: inherit;
   height: inherit;
+
 }
 
 .item:hover .grid-img{
@@ -162,7 +164,7 @@ body {
 .work-text{
   font-family: raisonne, sans-serif;
   z-index: 1;
-  color: white;
+  color: #535AFF;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -173,7 +175,7 @@ body {
 }
 
 .item:hover .overlay{
-  background-color: blue;
+  background-color: #CAFF53;
   opacity: 1;
   background: cover;
 }
@@ -338,18 +340,6 @@ table {
 		padding-top: 50px;
 	}
 
-	.grid-container {
-	display: block;
-	width: 100%;
-
-}
-
-.grid-item {
-	width: 100%;
-	height: auto;
-	display: block;
-	margin-bottom: -20px;
-}
 
 .content-container {
 	display: flex;
@@ -426,19 +416,6 @@ table {
 	.header-content h1{
 		padding-top: 50px;
 	}
-
-	.grid-container {
-		display: flex;
-		grid-template-columns: auto auto auto auto;
-}
-
-.grid-item {
-	width: 100%;
-	height: auto;
-	display: block;
-	margin-bottom: -20px;
-	background-size: contain;
-}
 
 .content-container {
 	display: flex;
@@ -517,12 +494,6 @@ table {
 	}
 
 
-.grid-item {
-	width: 100%;
-	height: auto;
-	margin-bottom: -20px;
-}
-
 .content-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -541,6 +512,8 @@ table {
 	height: 150px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	margin-top: 50px;
+
 
 }
 
@@ -588,7 +561,7 @@ table {
 
 	.header-content{
 		text-align: left;
-		width: 100%;
+		width: 1024px;
 		height: 100%;
 		padding-top: 50px;
 		padding-bottom: 150px;
@@ -625,6 +598,7 @@ table {
 	height: 200px;
 	padding-top: 25px;
 	padding-bottom: 20px;
+	margin-top: 50px;
 
 }
 
