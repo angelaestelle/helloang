@@ -135,11 +135,8 @@ body {
 /*add a class for img otherwise it'll get messy ha*/
 
 .item {
-	max-width: 500px;
-	max-height: 500px;
-	background-color: #cfc8d2;
+	position: relative;
 	border-radius: 8px;
-	box-shadow: none;
 	margin: 5px;
 
 }
@@ -150,8 +147,7 @@ body {
 }
 
 .grid-img{
-	position: relative;
-	background-size: 100%;
+	vertical-align: top;
 	width: inherit;
 	height: inherit;
 
@@ -320,7 +316,7 @@ body {
 		min-height: 100%;
 	}
 
-	
+
 	.work-header-content {
 		text-align: left;
 		width: 100%;
