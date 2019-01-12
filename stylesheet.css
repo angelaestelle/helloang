@@ -163,13 +163,14 @@ body {
 	font-family: raisonne, sans-serif;
 	z-index: 1;
 	color: #E80000;
-	font-size: 26px;
+	font-size: 2em;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	opacity: 0;
 	transform: translate(-50%, -50%);
 	text-align: center;
+	width: 90%;
 }
 
 .item:hover .overlay{
@@ -360,6 +361,7 @@ background: #fff;
 
 	}
 
+
 	.item .work-text{
 		opacity: 1;
 
@@ -386,7 +388,7 @@ background: #fff;
 }
 
 /* Extra small devices (phones, 768px and down) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 	html, body {
 		margin: 0 auto;
 	}
@@ -449,7 +451,6 @@ background: #fff;
 		grid-row-gap: 30px;
 		text-align: center;
 	}
-
 
 	.global-footer {
 		width: 100%;
@@ -532,6 +533,10 @@ background: #fff;
 		text-align: center;
 	}
 
+	.work-text{
+		font-size: 28px;
+
+	}
 
 	.global-footer {
 		width: 100%;
