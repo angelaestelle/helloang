@@ -36,7 +36,7 @@ h2 {
 h4 {
 	font-family: inconsolata, monospace;
 	line-height: 24px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 p {
@@ -52,7 +52,7 @@ p {
 
 li a {
 	font-family: inconsolata, monospace;
-	font-size: 20px;
+	font-size: 18px;
 	text-decoration: none;
 }
 
@@ -300,8 +300,8 @@ body {
 /*GLOBAL FOOTER*/
 
 .global-footer {
-text-align: center;
-background: #fff;
+	text-align: center;
+	background: #fff;
 }
 
 .global-footer li{
@@ -362,7 +362,7 @@ background: #fff;
 
 	.header-content{
 		text-align: left;
-		width: 100%;
+		width: 90vw;
 		height: 100%;
 		padding-bottom: 100px;
 		background-color: var(fpo--bg2-color);
@@ -388,6 +388,12 @@ background: #fff;
 		grid-template-columns: auto;
 		grid-row-gap: 30px;
 		text-align: center;
+	}
+
+	.secondary-header-content,
+	.experience-container,
+	.education-container {
+		width: 90vw;
 	}
 
 	.item {
@@ -467,7 +473,7 @@ background: #fff;
 		width: 100%;
 		height: 100%;
 		padding-top: 50px;
-	padding-bottom: 150px;
+		padding-bottom: 150px;
 		background-color: var(fpo--bg2-color);
 
 	}
@@ -668,7 +674,14 @@ background: #fff;
 	.education-container {
 		width: 1024px;
 	}
+	@-moz-document url-prefix() {
 
+		.secondary-header-content,
+		.experience-container,
+		.education-container{
+			width: 1024px;
+		}
+	}
 
 	.content-container {
 		display: flex;
