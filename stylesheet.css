@@ -1,3 +1,4 @@
+
 /*VARIABLES*/
 
 :root {
@@ -23,13 +24,13 @@
 h1 {
 	font-family: raisonne, sans-serif;
 	font-size: 48px;
-	color: #FF0546;
+	color: #FFA3BB;
 }
 
 h2 {
 	font-family: raisonne, sans-serif;
 	font-size: 28px;
-	color: #FF0546;
+	color: #FFA3BB;
 }
 
 h4 {
@@ -60,12 +61,9 @@ a {
 	color: black;
 }
 
-a:hover{
-	text-decoration: underline;
-}
 
 .inline-h4{
-	font-family: raisonne, sans-serif;
+	font-family: inconsolata, monospace;
 	font-size: 20px;
 	color: black;
 }
@@ -179,10 +177,10 @@ body {
 }
 
 .work-text{
-	font-family: raisonne, sans-serif;
+	font-family: inconsolata, monospace;
 	z-index: 1;
 	color: #E80000;
-	font-size: 2em;
+	font-size: 1.5em;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -231,6 +229,18 @@ body {
 
 .nav-link {
 	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #FCE7EC;
+	border-radius: 6px;
+	box-shadow: 2px 2px #000;
+	border: solid 2px black;
+}
+
+.nav-link:hover {
+	background-color: #FFA3BB;
 }
 
 /*HEADER CONTENT*/
@@ -420,7 +430,7 @@ background: #fff;
 }
 
 /* Extra small devices (phones, 768px and down) */
-@media only screen and (max-width: 767px) {
+@media screen and (min-width: 600px) {
 	html, body {
 		margin: 0 auto;
 	}
@@ -491,6 +501,11 @@ background: #fff;
 		text-align: center;
 	}
 
+	.work-text {
+		font-size: 2em;
+	}
+
+
 	.global-footer {
 		width: 100%;
 		display: block;
@@ -511,7 +526,7 @@ background: #fff;
 
 
 /* Tablet devices (tablets/laptops, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 	html, body {
 		margin: 0 auto;
 	}
@@ -604,7 +619,7 @@ background: #fff;
 }
 
 /* Extra small devices (desktop, 1024 and up) */
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 	html, body {
 		margin: 0 auto;
 	}
@@ -690,6 +705,3 @@ background: #fff;
 		padding-bottom: 20px;
 		text-align: center;
 		font-size: 18px;
-	}
-
-}
