@@ -210,7 +210,7 @@ body {
 }
 
 .item:hover .overlay{
-	background-color: #FCE0E7;
+	background-color: #FCE7EC;
 	opacity: 1;
 	background: cover;
 }
@@ -380,7 +380,6 @@ body {
 		width: 90vw;
 		height: 100%;
 		padding-bottom: 100px;
-		background-color: var(fpo--bg2-color);
 	}
 
 	.header-content h1{
@@ -416,7 +415,7 @@ body {
 	.item {
 		position: relative;
 		border-radius: 8px;
-		background-color: #FCE0E7;
+		background-color: #FCE7EC;
 		margin: 5px;
 		margin-top: -1px;
 		margin-left: 1px;
@@ -489,7 +488,6 @@ body {
 		height: 100%;
 		padding-top: 50px;
 		padding-bottom: 150px;
-		background-color: var(fpo--bg2-color);
 
 	}
 
@@ -585,7 +583,6 @@ body {
 		text-align: left;
 		width: 100%;
 		height: 100%;
-		background-color: var(fpo--bg2-color);
 		padding-bottom: 150px;
 	}
 
@@ -679,7 +676,6 @@ body {
 		height: 100%;
 		padding-top: 50px;
 		padding-bottom: 150px;
-		background-color: var(fpo--bg2-color);
 	}
 
 	.header-content h1{
