@@ -433,6 +433,8 @@ iframe {
 		max-width: 1280px;
 		max-height: 720px;
 		align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
 	.work-img {
