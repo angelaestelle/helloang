@@ -292,8 +292,8 @@ a {
 	margin: 0 auto;
 	vertical-align: top;
 	justify-content: center;
-	width: 80%;
-	height: 80%;
+	max-width: 80%;
+	height: 100%;
 }
 
 .content-container-block{
@@ -772,10 +772,10 @@ iframe {
 
 	.content-container {
 		display: grid;
-		grid-template-columns: auto auto;
-		margin: 0 auto;
-		height: 100%;
+		grid-template-columns: auto ;
+
 	}
+
 
 	.work-img {
 		width: 100%;
