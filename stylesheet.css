@@ -210,7 +210,6 @@ a {
 	font-family: inconsolata, monospace;
 	z-index: 1;
 	color: #000;
-	font-size: 1em;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -773,6 +772,16 @@ iframe {
 
 	.content-container {
 		display: grid;
+		margin: 0 auto;
+		width: auto;
+		height: 100%;
+	}
+
+	.content-container-2-column{
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		grid-column-gap: 10px;
+		grid-row-gap: 10px;
 		margin: 0 auto;
 		width: auto;
 		height: 100%;
