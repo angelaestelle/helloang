@@ -290,6 +290,8 @@ a {
 	grid-gap: 10px;
 	grid-auto-rows: auto;
 	margin: 0 auto;
+	vertical-align: top;
+	justify-content: center;
 	width: 80%;
 	height: 80%;
 }
