@@ -21,6 +21,16 @@
 	src: url(fonts/Raisonne_Demibold.woff) format('woff'), url(fonts/Raisonne_Demibold.ttf) format('truetype'), url(fonts/Raisonne_Demibold.svg) format('svg'), local('Raisonne'), local('Raisonne_Demibold'), url('fonts/Raisonne_Demibold.eot');
 }
 
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
 h1 {
 	font-family: raisonne, sans-serif;
 	font-size: 48px;
@@ -281,13 +291,14 @@ body {
 /*WORK PAGES*/
 
 .content-container {
-	width: 100%;
-	position: relative;
 	display: grid;
 	grid-template-columns: auto auto;
 	grid-gap: 10px;
 	grid-auto-rows: auto;
 	margin: 0 auto;
+	width: 80%;
+	height: 80%;
+	position: absolute;
 }
 
 .content-container-block{
@@ -385,10 +396,12 @@ iframe {
 	table {
 		width: 100px;
 	}
+
 	.wrapper {
 		margin: 0 auto;
 		width: 90%;
 		min-height: 100%;
+		position: relative;
 	}
 
 
@@ -579,6 +592,7 @@ iframe {
 		height: auto;
 	}
 
+
 	.container {
 		position: relative;
 		display: grid;
@@ -671,6 +685,8 @@ iframe {
 		width: 100%;
 		height: auto;
 	}
+
+
 	.container {
 		position: relative;
 		display: grid;
@@ -684,17 +700,17 @@ iframe {
 
 	}
 
-
 	.global-footer {
-		width: 100%;
+		background-color: #fff;
 		display: block;
-		position: sticky;
-		height: 200px;
-		padding-top: 20px;
-		padding-bottom: 20px;
-		margin-top: 50px;
-	}
+		position: relative;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
 
+	}
 	.footer-text{
 		padding-top: 20px;
 		padding-bottom: 20px;
@@ -764,7 +780,6 @@ iframe {
 	.content-container {
 		display: grid;
 		margin: 0 auto;
-		width: auto;
 		height: 100%;
 	}
 
@@ -773,6 +788,8 @@ iframe {
 		height: auto;
 		max-width: 1200px;
 	}
+
+
 	.container {
 		position: relative;
 		display: grid;
@@ -799,13 +816,12 @@ iframe {
 	}
 
 	.global-footer {
-		width: 100%;
-		display: block;
-		position: sticky;
-		height: 200px;
-		padding-top: 25px;
-		padding-bottom: 20px;
-		margin-top: 50px;
+		background-color: #fff;
+		position: relative;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
 
 	}
 
