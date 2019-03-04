@@ -252,19 +252,20 @@ a {
 }
 
 .nav-link {
-	color: black;
+	color: #000;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 20px;
 	padding-right: 20px;
 	background-color: #FCE7EC;
 	border-radius: 6px;
-	box-shadow: 2px 2px #000;
 	border: solid 2px black;
 }
 
 .nav-link:hover {
-	background-color: #FFA3BB;
+	color: #E80000;
+	box-shadow: 2px 2px #000;
+
 }
 
 /*HEADER CONTENT*/
