@@ -44,14 +44,14 @@ h1 {
 	font-family: raisonne, serif;
 	font-weight: 400;
 	font-size: 48px;
-	color: #ED3E3E;
+	color: #ffbbf4;
 	margin-bottom: -5px;
 }
 
 h2 {
 	font-family: raisonne, sans-serif;
 	font-size: 28px;
-	color: #ED3E3E;
+	color: #ffbbf4;
 }
 
 h4 {
@@ -60,13 +60,14 @@ h4 {
 	font-size: 18px;
 }
 
+
 .highlight-header, h2{
 	position: relative;
 	z-index: 1;
 }
 
 .highlight-header:after, h2:after{
-	background-color: #FCE7EC;
+	background-color: #a8ffd2;
 	bottom: 0;
 	top: 20px;
 	content: ' ';
@@ -87,7 +88,9 @@ p {
 
 
 .small{
+	background-color: #a8ffd2;
 	font-size: 14px;
+	display: inline;
 }
 
 li a {
@@ -218,7 +221,7 @@ a {
 }
 
 .item:hover .item-1{
-	background-color: #e43a3a;
+	background-color: #ff5f5f;
 	opacity: 1;
 	background: cover;
 }
@@ -411,6 +414,11 @@ iframe {
 
 .footer-link {
 	color: black;
+}
+
+.footer-link:hover {
+	background-color: #a8ffd2;
+
 }
 
 .footer-text{
