@@ -414,10 +414,7 @@ iframe {
 
 .footer-link {
 	color: black;
-}
-
-.footer-link:hover {
-	background-color: #a8ffd2;
+	background-color: #febcf3;
 
 }
 
@@ -594,7 +591,6 @@ iframe {
 	.grid-img{
 		visibility: hidden;
 	}
-
 
 	.global-footer {
 		padding-right: 15px;
@@ -800,6 +796,8 @@ iframe {
 		font-size: 28px;
 
 	}
+
+
 
 	.global-footer {
 		display: block;
