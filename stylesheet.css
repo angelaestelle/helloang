@@ -310,10 +310,14 @@ a {
 
 .nav-1:hover {
 	background-color: #ffbbf4;
+	box-shadow: 4px 4px #000;
+
 }
 
 .nav-2:hover {
 	background-color: #a8ffd2;
+	box-shadow: 4px 4px #000;
+
 }
 
 /*HEADER CONTENT*/
@@ -514,6 +518,7 @@ iframe {
 	}
 
 	.item {
+		font-size: 1.5em;
 		position: relative;
 		border-radius: 8px;
 		background-color: #FCE7EC;
@@ -521,7 +526,6 @@ iframe {
 		margin-top: -1px;
 		margin-left: 1px;
 		height: 200px;
-		border: 4px solid black;
 
 	}
 
