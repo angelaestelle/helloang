@@ -21,15 +21,25 @@
 	src: url(fonts/Raisonne_Demibold.woff) format('woff'), url(fonts/Raisonne_Demibold.ttf) format('truetype'), url(fonts/Raisonne_Demibold.svg) format('svg'), local('Raisonne'), local('Raisonne_Demibold'), url('fonts/Raisonne_Demibold.eot');
 }
 
+* {
+}
+
 html {
-	min-height: 100%;
 	position: relative;
+	margin: 0;
 }
 
 html, body {
-	margin: 0;
-	padding: 0;
+	height: 100%;
 }
+
+body {
+	background: #fff;
+	animation-name: fadeIn;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
 
 h1 {
 	font-family: raisonne, sans-serif;
@@ -133,27 +143,11 @@ a {
 	}
 }
 
-/*HTML*/
-
-
-html, body {
-	margin: 0 auto;
-	min-height: 100%;
-	max-height: 100%;
-
-}
-
-body {
-	background: #fff;
-	animation-name: fadeIn;
-	animation-duration: 2s;
-	animation-fill-mode: forwards;
-}
-
 
 /*WRAPPER*/
 .wrapper {
 	position: relative;
+	display: block;
 	min-height: 100%;
 	margin: 0 auto;
 	width: 1280px;
@@ -298,7 +292,6 @@ body {
 	margin: 0 auto;
 	width: 80%;
 	height: 80%;
-	position: absolute;
 }
 
 .content-container-block{
@@ -721,9 +714,6 @@ iframe {
 
 /* Extra small devices (desktop, 1024 and up) */
 @media screen and (min-width: 1024px) {
-	html, body {
-		margin: 0 auto;
-	}
 
 	h1 {
 		font-size: 42px;
@@ -738,6 +728,7 @@ iframe {
 	table {
 		width: 100px;
 	}
+
 	.wrapper {
 		margin: 0 auto;
 		width: 90%;
@@ -789,7 +780,6 @@ iframe {
 		max-width: 1200px;
 	}
 
-
 	.container {
 		position: relative;
 		display: grid;
@@ -816,13 +806,8 @@ iframe {
 	}
 
 	.global-footer {
-		background-color: #fff;
-		position: relative;
-    bottom: 0;
-    height: 150px;
-    width: 100%;
-    overflow: hidden;
-
+		bottom: 0px;
+		padding-bottom: 100px;
 	}
 
 	.footer-text{
