@@ -48,10 +48,26 @@ h1 {
 	margin-bottom: -5px;
 }
 
+h1::-moz-selection {
+	background-color: #abfed3;
+}
+
+h1::selection {
+	background-color: #abfed3;
+}
+
 h2 {
 	font-family: raisonne, sans-serif;
 	font-size: 28px;
 	color: #ffbbf4;
+}
+
+h2::-moz-selection {
+	background-color: #abfed3;
+}
+
+h2::selection {
+	background-color: #abfed3;
 }
 
 h4 {
@@ -60,6 +76,13 @@ h4 {
 	font-size: 18px;
 }
 
+h4::-moz-selection {
+	background-color: #abfed3;
+}
+
+h4::selection {
+	background-color: #abfed3;
+}
 
 .highlight-header, h2{
 	position: relative;
@@ -86,6 +109,21 @@ p {
 	font-size: 16px;
 }
 
+p::-moz-selection {
+	background-color: #abfed3;
+}
+
+p::selection {
+	background-color: #abfed3;
+}
+
+i::-moz-selection {
+	background-color: #abfed3;
+}
+
+i::selection {
+	background-color: #abfed3;
+}
 
 .small{
 	background-color: #a8ffd2;
@@ -104,11 +142,26 @@ a {
 	color: black;
 }
 
+a::-moz-selection {
+	background-color: #abfed3;
+}
+
+a::selection {
+	background-color: #abfed3;
+}
 
 .inline-h4{
 	font-family: inconsolata, monospace;
 	font-size: 20px;
 	color: black;
+}
+
+.inline-h4::-moz-selection {
+	background-color: #abfed3;
+}
+
+.inline-h4::selection {
+	background-color: #abfed3;
 }
 
 /*ANIMATIONS*/
@@ -778,6 +831,17 @@ iframe {
 	}
 
 	.content-container-2-column{
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-column-gap: 10px;
+		grid-row-gap: 10px;
+		margin: 0 auto;
+		width: auto;
+		height: 100%;
+	}
+
+
+	.content-container-4-column{
 		display: grid;
 		grid-template-columns: auto auto auto auto;
 		grid-column-gap: 10px;
