@@ -1,7 +1,3 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic');
-</style>
-
 /*VARIABLES*/
 
 :root {
@@ -37,7 +33,7 @@ html, body {
 }
 
 body {
-	background: #feebea;
+	background: #fff;
 	animation-name: fadeIn;
 	animation-duration: 2s;
 	animation-fill-mode: forwards;
@@ -45,7 +41,7 @@ body {
 
 
 h1 {
-	font-family: 'Gentium Book Basic', serif;
+	font-family: raisonne, serif;
 	font-weight: 400;
 	font-size: 48px;
 	color: #ED3E3E;
@@ -350,7 +346,7 @@ iframe {
 
 .global-footer {
 	text-align: center;
-	background: #feebea;
+	background: #fff;
 }
 
 .global-footer li{
