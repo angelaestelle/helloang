@@ -772,6 +772,7 @@ iframe {
 
 	.content-container {
 		display: grid;
+		grid-template-columns: auto auto;
 		margin: 0 auto;
 		height: 100%;
 	}
@@ -779,7 +780,7 @@ iframe {
 	.work-img {
 		width: 100%;
 		height: auto;
-		max-width: 1200px;
+		max-width: 100%;
 	}
 
 	.container {
