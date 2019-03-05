@@ -70,6 +70,20 @@ h2::selection {
 	background-color: #abfed3;
 }
 
+h3 {
+	font-family: raisonne, sans serif;
+	line-height: 24px;
+	font-size: 24px;
+}
+
+h3::-moz-selection {
+	background-color: #abfed3;
+}
+
+h3::selection {
+	background-color: #abfed3;
+}
+
 h4 {
 	font-family: inconsolata, monospace;
 	line-height: 24px;
@@ -148,6 +162,18 @@ a::-moz-selection {
 
 a::selection {
 	background-color: #abfed3;
+}
+
+ul li {
+	font-family: inconsolata, monospace;
+	font-size: 16px;
+	line-height: 34px;
+	text-decoration: none;
+}
+
+ul li::selection {
+	background-color: #abfed3;
+
 }
 
 .inline-h4{
