@@ -400,8 +400,18 @@ a::selection {
 	margin: 0 auto;
 	vertical-align: top;
 	justify-content: center;
-	max-width: 80%;
+	max-width: 1200px;
 	height: 100%;
+}
+
+.content-container-2-column{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin: 0 auto;
+	height: 100%;
+	max-width: 1200px;
 }
 
 .content-container-3-column {
@@ -442,7 +452,8 @@ iframe {
 
 .work-header-content{
 	text-align: left;
-	max-width: 1024px;
+	max-width: 1440px;
+	padding-top: 50px;
 }
 
 iframe {
@@ -1048,13 +1059,12 @@ iframe {
 		display: grid;
 		grid-template-columns: auto;
 		grid-gap: 10px;
-		grid-auto-rows: auto;
 		margin: 0 auto;
 	}
 
 	iframe {
 		width: 100%;
-		max-width: 1720px;
+		max-width: 1280px;
 		max-height: 720px;
 		align: center;
 	}
