@@ -585,7 +585,15 @@ iframe {
 		grid-row-gap: 20px;
 	}
 
-
+	.content-container-2-column{
+		display: grid;
+		grid-template-columns: auto;
+		grid-column-gap: 10px;
+		grid-row-gap: 10px;
+		margin: 0 auto;
+		height: 100%;
+		max-width: 1200px;
+	}
 
 	.content-container-block{
 		width: 100%;
