@@ -404,6 +404,14 @@ a::selection {
 	height: 100%;
 }
 
+.content-container-3-column {
+	position: relative;
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 10px;
+
+}
+
 .content-container-block{
 	width: 100%;
 	position: relative;
@@ -424,6 +432,12 @@ iframe {
 	margin: 0 auto;
 	width: auto;
 	height: 100vw;
+}
+
+.gif-img-small {
+	margin: 0 auto;
+	vertical-align: middle;
+	justify-content: center;
 }
 
 .work-header-content{
@@ -560,6 +574,12 @@ iframe {
 		height: auto;
 	}
 
+	.gif-img-small {
+		margin: 0 auto;
+		vertical-align: middle;
+		justify-content: center;
+	}
+
 	.container {
 		position: relative;
 		display: grid;
@@ -586,8 +606,17 @@ iframe {
 
 	}
 
+	.content-container-3-column {
+		position: relative;
+		display: grid;
+		grid-template-columns: auto;
+		grid-gap: 10px;
+		text-align: center;
+		vertical-align: middle;
+		justify-content: center;
+	}
 
-	.item .item-1{
+		.item .item-1{
 		background-color: #e43a3a;
 		opacity: 1;
 		background: cover;
@@ -741,6 +770,21 @@ iframe {
 		height: auto;
 	}
 
+	.gif-img-small {
+		margin: 0 auto;
+		vertical-align: middle;
+		justify-content: center;
+	}
+
+	.content-container-3-column {
+		position: relative;
+		display: grid;
+		grid-template-columns: auto;
+		grid-gap: 10px;
+		vertical-align: middle;
+		justify-content: center;
+	}
+
 
 	.container {
 		position: relative;
@@ -840,6 +884,14 @@ iframe {
 		height: 100%;
 	}
 
+	.content-container-3-column {
+		position: relative;
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 10px;
+		vertical-align: middle;
+		justify-content: center;
+	}
 
 	.content-container-4-column{
 		display: grid;
@@ -856,6 +908,11 @@ iframe {
 		height: auto;
 	}
 
+	.gif-img-small {
+		margin: 0 auto;
+		vertical-align: middle;
+		justify-content: center;
+	}
 
 	.container {
 		position: relative;
@@ -870,7 +927,11 @@ iframe {
 
 	}
 
-
+	.gif-img-small {
+		margin: 0 auto;
+		vertical-align: middle;
+		justify-content: center;
+	}
 
 	.global-footer {
 		display: block;
@@ -958,6 +1019,12 @@ iframe {
 		max-width: 100%;
 	}
 
+	.gif-img-small {
+		margin: 0 auto;
+		vertical-align: middle;
+		justify-content: center;
+	}
+
 	.container {
 		position: relative;
 		display: grid;
@@ -966,6 +1033,15 @@ iframe {
 		text-align: center;
 	}
 
+	.content-container-3-column {
+		position: relative;
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 10px;
+		text-align: center;
+		vertical-align: middle;
+		justify-content: center;
+	}
 	.content-container-block{
 		width: 100%;
 		position: relative;
@@ -987,6 +1063,7 @@ iframe {
 		bottom: 0px;
 		padding-bottom: 100px;
 	}
+
 
 	.footer-text{
 		padding-top: 20px;
