@@ -1,4 +1,11 @@
-/*VARIABLES*/
+/*
+colors:
+f986e4
+ffbbf4
+abfed3
+
+
+*/
 
 :root {
 	--fpo-bg-color: #e1e1e1;
@@ -44,7 +51,7 @@ h1 {
 	font-family: raisonne, serif;
 	font-weight: 400;
 	font-size: 48px;
-	color: #ffbbf4;
+	color: #f986e4;
 	margin-bottom: -5px;
 }
 
@@ -59,7 +66,7 @@ h1::selection {
 h2 {
 	font-family: raisonne, sans-serif;
 	font-size: 28px;
-	color: #ffbbf4;
+	color: #f986e4;
 }
 
 h2::-moz-selection {
