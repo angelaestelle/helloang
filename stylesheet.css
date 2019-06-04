@@ -353,6 +353,12 @@ ul li::selection {
 	background: cover;
 }
 
+.item:hover .item-9 {
+	background-color: #0dea38;
+	opacity: 1;
+	background: cover;
+}
+
 .item:hover .work-text{
 	opacity: 1;
 }
