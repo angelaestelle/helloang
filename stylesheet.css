@@ -35,16 +35,25 @@ h2 {
   line-height: 46px;
 }
 
+h3 {
+    font-family: gitan-latin, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #343434;
+    font-size: 2.12em;
+    line-height: 46px;
+}
+
 .h1-red {
   color: #b9401f;
 }
 
-.h2-link a {
+.h3-link a {
     color: #FFFEE5 !important;
     text-decoration: underline;
 }
 
-.h2-link:visited a {
+.h3-link:visited a {
     color: #FFFEE5 !important;
     text-decoration: underline;
 }
@@ -52,3 +61,64 @@ h2 {
 .header-sub {
     margin-top: -55px;
 }
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .wrapper {
+        max-width: 302;
+        padding: 40px;
+        margin: 0 auto;
+      }
+      
+      main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        resize: vertical;
+        height: 700px;
+        width: auto;
+      }
+      
+      h1 {
+        font-family: gitan-latin, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2.5em;
+        line-height: 50px;
+      }
+      
+      h2 {
+        font-family: gitan-latin, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #343434;
+        font-size: 2em;
+        line-height: 36px;
+      }
+      
+      h3 {
+          font-family: gitan-latin, sans-serif;
+          font-weight: 500;
+          font-style: normal;
+          color: #343434;
+          font-size: 2em;
+          line-height: 36px;
+      }
+
+      .header-sub {
+        margin-top: -30px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
