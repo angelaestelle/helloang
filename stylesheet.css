@@ -1,3 +1,13 @@
 body {
-    background: pink;
+    background: #FFBCAA;
+}
+
+h3 {
+    font-family: gitan-latin, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 .h3-red {
+    color: #B9401F;
 }
