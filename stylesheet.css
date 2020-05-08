@@ -13,9 +13,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: solid 1px black;
   resize: vertical;
-  height: 500px;
+  height: 700px;
   width: auto;
 }
 
@@ -24,19 +23,32 @@ h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 4.68em;
+  line-height: 79px;
 }
 
 h2 {
   font-family: gitan-latin, sans-serif;
   font-weight: 500;
   font-style: normal;
-  color: #000;
+  color: #343434;
+  font-size: 2.62em;
+  line-height: 46px;
 }
 
 .h1-red {
   color: #b9401f;
 }
 
+.h2-link a {
+    color: #FFFEE5 !important;
+    text-decoration: underline;
+}
+
+.h2-link:visited a {
+    color: #FFFEE5 !important;
+    text-decoration: underline;
+}
+
 .header-sub {
-    margin-top: -75px;
+    margin-top: -55px;
 }
