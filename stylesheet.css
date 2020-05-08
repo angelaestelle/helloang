@@ -1,13 +1,42 @@
 body {
-    background: #FFBCAA;
+  margin: 0 auto;
+  background: #ffbcaa;
 }
 
-h3 {
-    font-family: gitan-latin, sans-serif;
-    font-weight: 700;
-    font-style: normal;
+.wrapper {
+  max-width: 1140px;
+  padding: 20px;
+  margin: 0 auto;
 }
 
-h3 .h3-red {
-    color: #B9401F;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 1px black;
+  resize: vertical;
+  height: 500px;
+  width: auto;
+}
+
+h1 {
+  font-family: gitan-latin, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.68em;
+}
+
+h2 {
+  font-family: gitan-latin, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #000;
+}
+
+.h1-red {
+  color: #b9401f;
+}
+
+.header-sub {
+    margin-top: -75px;
 }
