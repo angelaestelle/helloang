@@ -116,7 +116,6 @@ nav ul li {
 nav ul li a {
   color: #b9401f;
   text-decoration: none;
-  font-size: 2.12em;
   width: auto;
 }
 
@@ -314,6 +313,15 @@ h3 {
     margin-top: -30px;
   }
 
+  /* NAV */
+
+  nav ul li a {
+    color: #b9401f;
+    text-decoration: none;
+    font-size: 1.5em;
+    width: auto;
+  }
+
   .work__section {
     max-width: 100%;
     opacity: 0;
@@ -371,6 +379,15 @@ h3 {
 
   .header--sub {
     margin-top: -30px;
+  }
+
+  /* NAV */
+
+  nav ul li a {
+    color: #b9401f;
+    text-decoration: none;
+    font-size: 1.5em;
+    width: auto;
   }
 
   .work__section {
@@ -442,6 +459,15 @@ h3 {
 
   .header--sub {
     margin-top: -25px;
+  }
+
+  /* NAV */
+
+  nav ul li a {
+    color: #b9401f;
+    text-decoration: none;
+    font-size: 1.7em;
+    width: auto;
   }
 
   .work__section {
@@ -517,6 +543,15 @@ h3 {
 
   .header--sub {
     margin-top: -55px;
+  }
+
+  /* NAV */
+
+  nav ul li a {
+    color: #b9401f;
+    text-decoration: none;
+    font-size: 1.8em;
+    width: auto;
   }
 
   .work__section {
