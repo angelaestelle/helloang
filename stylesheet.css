@@ -91,7 +91,6 @@ main {
 
 nav {
   position: fixed;
-  border: solid 1px black;
   font-family: gitan-latin, sans-serif;
   width: 100%;
   opacity: 0;
