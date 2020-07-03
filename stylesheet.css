@@ -366,7 +366,7 @@ h3 {
     font-family: gitan-latin, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 2.3em;
+    font-size: 2em;
     line-height: 50px;
   }
 
@@ -375,8 +375,8 @@ h3 {
     font-weight: 500;
     font-style: normal;
     color: #343434;
-    font-size: 1.7em;
-    line-height: 36px;
+    font-size: 1.2em;
+    line-height: 30px;
   }
 
   h3 {
@@ -384,8 +384,12 @@ h3 {
     font-weight: 500;
     font-style: normal;
     color: #343434;
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 36px;
+  }
+
+  .h3-link a {
+    font-size: 1em;
   }
 
   .header--sub {
@@ -435,7 +439,7 @@ h3 {
     font-family: gitan-latin, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 2.3em;
+    font-size: 2em;
     line-height: 50px;
   }
 
@@ -444,7 +448,7 @@ h3 {
     font-weight: 500;
     font-style: normal;
     color: #343434;
-    font-size: 1.7em;
+    font-size: 1.5em;
     line-height: 36px;
   }
 
@@ -453,7 +457,7 @@ h3 {
     font-weight: 500;
     font-style: normal;
     color: #343434;
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 36px;
   }
 
@@ -529,7 +533,7 @@ h3 {
     color: #b9401f;
   }
 
-  .h3-link a {
+  .h3-link {
     text-decoration: none;
   }
 
