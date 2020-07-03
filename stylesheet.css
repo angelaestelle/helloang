@@ -272,6 +272,7 @@ h3 {
   font-size: 2em;
   line-height: 34px;
   top: 0;
+  background: yellow;
 }
 
 .row {
@@ -526,6 +527,10 @@ h3 {
 
   .h1--red {
     color: #b9401f;
+  }
+
+  .h3-link a {
+    text-decoration: none;
   }
 
   .h3-link:visited a {
