@@ -293,7 +293,7 @@ h3 {
 .work-block a {
   color: #b9401f;
   text-decoration: none;
-  font-family: "Gitan Latin", sans-serif;
+  font-family: gitan-latin, sans-serif;
 }
 
 .work-block a:hover,
