@@ -347,15 +347,16 @@ h3 {
 /* FOOTER */
 
 .footer-wrapper {
+  position: relative;
+  bottom: -100px;
+  height: 150px;
+  width: 100%;
+  margin: 0 auto;
   opacity: 0;
   -webkit-animation: fadeIn 1s forwards;
   -moz-animation: fadeIn 1s forwards;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
-  position: relative;
-  bottom: -100px;
-  height: 150px;
-  text-align: center;
 }
 
 .footer-items {
@@ -364,15 +365,18 @@ h3 {
   font-weight: 500;
   font-size: 1em;
   color: black;
+  text-align: center;
 }
 
 .footer-items ul {
   list-style-type: none;
+  margin: 0 auto;
+  margin-left: -28px;
 }
 
 .footer-items ul li {
-  display: inline;
-  padding-right: 20px;
+  padding-right: 10px;
+  display: inline-block;
 }
 
 .footer-items a {
