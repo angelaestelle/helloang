@@ -113,6 +113,7 @@ nav {
   font-family: gitan-latin, sans-serif;
   width: 100%;
   opacity: 0;
+  background: #ffbcaa;
   text-align: center;
   -webkit-animation: fadeIn 1s forwards;
   -moz-animation: fadeIn 1s forwards;
