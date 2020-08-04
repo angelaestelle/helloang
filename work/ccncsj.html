@@ -43,23 +43,86 @@
                 <h1>
                     CCNC-SJ
                 </h1>
-                <p>
-                    CCNC–SJ is the Chinese Canadian National Council – for Social Justice. The CCNC-SJ organization
-                    serves to educate, provide awareness, and tools on anti-Asian racism, specifically racism fueled by
-                    COVID-19. They work to engage and advocate for racial justice in Canada.
-                    <br><br>
-                    I was tasked to help deliver an improved update of their current website. Improvements including
-                    visual identity, accessibility, consistency, and recall. Also to make room for upcoming content
-                    including the history of anti-racist resilience of the Asian community, and an educational toolkit
-                    provided by teachers who were hired as consultants meant to help people respond effectively to
-                    racism.
-
-
-                </p>
             </div>
-            <div class="header--sub">
-
+            <p>
+                CCNC–SJ is the Chinese Canadian National Council – for Social Justice. The CCNC-SJ organization
+                serves to educate, provide awareness, and tools on anti-Asian racism, specifically racism fueled by
+                COVID-19. They work to engage and advocate for racial justice in Canada.
+                <br><br>
+                I was tasked to help deliver an improved update of their current website. Improvements including
+                visual identity, accessibility, consistency, and recall. Also to make room for upcoming content
+                including the history of anti-racist resilience of the Asian community, and an educational toolkit
+                provided by teachers who were hired as consultants meant to help people respond effectively to
+                racism.
+            </p>
+            <div class="row">
+                <div class="column-25">
+                    <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/ccncsj/sketch3.jpg" id="myImg" />
+                </div>
+                <div class="column-25">
+                    <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/ccncsj/sketch1.jpg" id="myImg" />
+                </div>
+                <div class="column-25">
+                    <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/ccncsj/sketch4.jpg" id="myImg" />
+                </div>
+                <div class="column-25">
+                    <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/ccncsj/sketch2.jpg" id="myImg" />
+                </div>
             </div>
+
+            <br>
+            <p>
+                <b>Reorganize to optimize goals</b>
+                <br><br>
+                During the initial stages I focused on reorganizing the order of content on the website. It began
+                with focusing on user stories (Victim, Emotional, and Informational users) to shuffling the site
+                content based on the goal of the directors, which is to: push their campaigns, provide access to
+                traditional and non-traditional media to their work, and access to their educational tools on
+                anti-racism. The old site had a lot of page bloat and was difficult to recall, and the structure
+                felt inconsistent. Learning about anti-racism should be a part of everyone’s lifestyle, so I focused
+                on making the website as clean, consistent, and accessible as possible - for the boomers, the
+                zoomers, the millennials, and hopefully the generations coming. As a result came a site map with a
+                few sectional changes.
+
+            </p>
+            <div class="row">
+                <div class="column-50">
+                    <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/ccncsj/Site+Map+-+old.png"
+                        id="myImg" />
+                </div>
+                <div class="column-50">
+                    <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/ccncsj/Site+Map+-+new.png"
+                        id="myImg" />
+                </div>
+            </div>
+            <p>
+                <b>Wireframes</b>
+                <br><br>
+                When it came to developing the wireframes, this brought more understanding to myself and the CCNC-SJ
+                team as to what structure works best for the users and for the goals of the directors. Initial
+                iterations had a lot less content, limited information on the landing page - solely campaign information
+                - as I was focusing on simplicity and access. After the first interation, I learned cleanliness doesn’t
+                always equate to access, especially if the purpose of the site is to provide tools and resources to
+                encourage anti-racist advocacy.
+                <br><br>
+                The final product focused on keeping the campaigns and traditional media on the landing page - this is
+                to drive their goals for organic campaign engagement and to provide a quick route for traditional media.
+                I designed a structure for their campaign pages - #FaceRace and Stop the Spread - so there will be a
+                section to house extra information and several sub-pages to be added.
+                <br><br>
+                Given this site will also house plenty of cited information and curated sources, we added a resources
+                page to the global navigation to house links, sources, and partner sections such as the <a
+                    href="http://covidracism.ca" class="underline-2">COVID-10 Racism
+                    Reporting Tool.</a>
+
+            </p>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+
         </main>
         <!-- footer -->
         <div class="footer-wrapper">
@@ -77,15 +140,30 @@
             </div>
         </div>
     </div>
+
     <!--main wrapper end-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        function autorun() {
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
 
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
         }
-        if (window.addEventListener) window.addEventListener("load", autorun, false);
-        else if (window.attachEvent) window.attachEvent("onload", autorun);
-        else window.onload = autorun;
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
     </script>
 </body>
 
