@@ -104,6 +104,11 @@ p {
   color: black;
 }
 
+b {
+  font-family: "work sans", sans-serif;
+  font-weight: 600;
+}
+
 .wrapper {
   position: relative;
   max-width: 1140px;
@@ -384,6 +389,19 @@ h3 {
   max-width: 100%;
 }
 
+.column-33 {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  height: auto;
+  padding: 0 4px;
+}
+
+.column-33 img {
+  margin-top: 8px;
+  max-width: 100%;
+}
+
 .column-50 {
   -ms-flex: 50%; /* IE10 */
   flex: 50%;
@@ -472,7 +490,7 @@ h3 {
 
 /* The Close Button */
 .close {
-  position: absolute;
+  position: fixed;
   top: 80px;
   right: 35px;
   color: #f1f1f1;
@@ -511,7 +529,7 @@ h3 {
 }
 
 .footer-items {
-  padding-top: 30px;
+  padding-top: 60px;
   font-family: "Work Sans", sans-serif;
   font-weight: 500;
   font-size: 1em;
