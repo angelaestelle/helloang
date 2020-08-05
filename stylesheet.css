@@ -330,9 +330,6 @@ h3 {
 }
 
 .icon-arrow {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
   fill: #b9401f;
 }
 
@@ -1021,8 +1018,7 @@ h3 {
   /* WORK SECTION */
 
   .icon-arrow {
-    margin-right: 100px;
-    width: 7%;
+    width: 8%;
   }
 
   .work__section--wrapper {
