@@ -313,10 +313,11 @@ h3 {
 }
 
 .work-block {
+  width: 100%;
   margin-top: 100px;
   display: inline-block;
+  padding: 5px;
 }
-
 .work-block a {
   color: #b9401f;
   text-decoration: none;
@@ -329,13 +330,14 @@ h3 {
 }
 
 .icon-arrow {
-  padding-left: 100px;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
   fill: #b9401f;
-  width: 7%;
 }
 
 .btn-container {
-  margin-top: 20px;
+  margin-top: 10px;
   left: 100px;
   display: block;
   width: 100%;
@@ -349,6 +351,7 @@ h3 {
   font-family: "Work Sans", sans-serif;
   font-weight: 500;
   border: none;
+  margin-top: 10px;
 }
 
 .badge-progress {
@@ -710,11 +713,13 @@ h3 {
   /* WORK SECTION */
 
   .icon-arrow {
-    padding-left: 30px;
-    padding-top: 5px;
-    float: right;
-    fill: #b9401f;
-    width: 10%;
+    margin-right: 100px;
+    width: 7%;
+  }
+  .work-block {
+    width: 100%;
+    margin-top: 100px;
+    display: inline-block;
   }
 }
 
@@ -771,7 +776,10 @@ h3 {
   }
 
   /* WORK SECTION */
-
+  .icon-arrow {
+    margin-right: 100px;
+    width: 7%;
+  }
   .work-col {
     flex: 50%;
     margin: 10px;
@@ -848,7 +856,10 @@ h3 {
   }
 
   /* WORK SECTION */
-
+  .icon-arrow {
+    margin-right: 100px;
+    width: 7%;
+  }
   .work-col {
     width: 100%;
     flex: 50%;
@@ -928,7 +939,10 @@ h3 {
   }
 
   /* WORK SECTION */
-
+  .icon-arrow {
+    margin-right: 100px;
+    width: 7%;
+  }
   .work-col {
     width: 100%;
     flex: 50%;
@@ -1005,6 +1019,11 @@ h3 {
     width: auto;
   }
   /* WORK SECTION */
+
+  .icon-arrow {
+    margin-right: 100px;
+    width: 7%;
+  }
 
   .work__section--wrapper {
     margin: 0 auto;
