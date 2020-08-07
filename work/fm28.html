@@ -43,51 +43,137 @@
                 <p>
                     Celina reached out to me in the summer of 2019 with her idea of creating an artist collective based
                     out of LA, operating globally. She wanted to curate a collective of multifaceted artists and
-                    entrepreneurs. This site is meant as a vessel for those interested in joining and repping the
-                    community.
-                    <br><br>
+                    entrepreneurs. This site is meant as a vessel for those interested in joining and repping <a
+                        href="https://www.fm28.co/" class="underline-2">the FM28
+                        community.</a></p>
+                <br>
+                <div class="row">
+                    <div class="column-50">
+                        <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/fm28-home.png"
+                            class="modalImg">
+                    </div>
+                    <div class="column-50">
+                        <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/fm28-about.png"
+                            class="modalImg">
+                    </div>
+                </div>
+                <p>
                     We went with SquareSpace as a CMS as it was simple to integrate forms, third party API’s, updating
                     content blocks, and injecting custom CSS. We worked together back-and-forth on several layout
                     options – we went with what we currently have as the colour scheme, black & white background gifs of
                     riots, and early 2000’s spam windows as it aligned with the look and feel of cyber-artsy apocalyptic
-                    propaganda FM28 wanted to emulate.
-                    <br><br>
-                    Every page also had to feel like it had its own personality, since the site is very simple with
-                    little information, so adding all types of visuals were instrumental for the project.
-                    <br><br>
-                    All of the assets were designed by myself, with exception of the VHS and riot videos. All moving
-                    images on the site are GIFs as they perform faster and run upon page load.
+                    propaganda FM28 wanted to emulate.</p>
+                <br>
+                <div class="row">
+                    <div class="column-100">
+                        <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/fm28-submissions.png"
+                            class="modalImg">
+                    </div>
+                </div>
+                <p>Every page also had to feel like it had its own personality, since the site is very simple with
+                    little information, so adding all types of visuals were instrumental for the project.</p>
+                <br>
+                <div class="row">
+                    <div class="column-50">
+                        <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/fm28-contact.png"
+                            class="modalImg">
+                    </div>
+                    <div class="column-50">
+                        <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/fm28-streetteam.png"
+                            class="modalImg">
+                    </div>
+                </div>
+                <p>All of the assets were designed by myself, with exception of the riot video on the Street Team page.
+                    All moving images on the site are GIFs as they perform faster and run upon page load.
                 </p>
+                <br>
             </div>
-            <div class="header--sub">
+            <div class="row">
+                <div class="column-100">
+                    <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/FM28-rotate.gif" class="modalImg"
+                        style="width: 40%; display: block; margin: 0 auto;">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class=" column-33">
+                    <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/FM28-TIMERUNNINGOUT.gif"
+                        class="modalImg">
+                </div>
+                <div class="column-33">
+                    <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/WANTTOPLAY.gif" class="modalImg">
+                </div>
+                <div class="column-33">
+                    <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/FM28-JOINNOW-final-desktop.gif
+                    " class="modalImg">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="column-100">
+                    <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/SUBMISSIONS-FLOAT-BG.gif"
+                        class="modalImg" style="width: 100%; display: block; margin: 0 auto;">
+                </div>
+            </div>
+    </div>
 
-            </div>
-        </main>
-        <!-- footer -->
-        <div class="footer-wrapper">
-            <div class="footer-items">
-                <ul>
-                    <li>
-                        <a href="http://instagram.com/angelaestelle" class="underline" alt="Work">
-                            Instagram</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/angelae-martinez/" class="underline" alt="About">
-                            LinkedIn</a>
-                    </li>
-                </ul>
-            </div>
+
+    </main>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer-wrapper">
+        <div class="footer-items">
+            <ul>
+                <li>
+                    <a href="http://instagram.com/angelaestelle" class="underline" alt="Work">
+                        Instagram</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/angelae-martinez/" class="underline" alt="About">
+                        LinkedIn</a>
+                </li>
+            </ul>
         </div>
     </div>
+    </div>
+
     <!--main wrapper end-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        function autorun() {
+    <!-- Modal script-->
+    <script>
+        // create references to the modal...
+        var modal = document.getElementById('myModal');
+        // to all images -- note I'm using a class!
+        var images = document.getElementsByClassName('modalImg');
+        // the image in the modal
+        var modalImg = document.getElementById("img01");
+        // and the caption in the modal
+        var captionText = document.getElementById("caption");
 
+        // Go through all of the images with our custom class
+        for (var i = 0; i < images.length; i++) {
+            var img = images[i];
+            // and attach our click listener for this image.
+            img.onclick = function (evt) {
+                console.log(evt);
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
         }
-        if (window.addEventListener) window.addEventListener("load", autorun, false);
-        else if (window.attachEvent) window.attachEvent("onload", autorun);
-        else window.onload = autorun;
+
+        var span = document.getElementsByClassName("close")[0];
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
     </script>
 </body>
 
