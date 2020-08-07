@@ -40,37 +40,59 @@
                 <h1>
                     BestBuy Canada (2018/2019)
                 </h1>
-                <p>
-                    During my short and exciting time at Best Buy Canada, I worked as an Experience Designer on the
-                    eCommerce focusing on computing, imagine, and mobile products. We shipped new and improved weekly
-                    experiences for customers with the help of business specialists, copywriters, UX designers, and
-                    regular weekly meetings with all the digital designers at Best Buy. We worked on major product
-                    launches for Apple, Samsung, Microsoft, and more. A big challenge we had during my time at Best Buy
-                    involved improving the Best Buy Mobile section.
-                    <br><br>
-                    As customers landed on the BBM page, they would be overwhelmed with options and promotions resulting
-                    in a high bounce rate and the many promotions, products, and new offers ignored. This was becoming a
-                    major issue as copy and promotion were no longer helping create conversion but rather building a
-                    bigger barrier with our customers. We spent some time with stakeholders and other team members to
-                    identify this problem, our KPI’s, and worked together to create wireframes that would eventually
-                    become the solution.
-                    <br><br>
-                    The solution became a new, efficient, clean redesign. The BBM page now having narrowed, simpler
-                    navigation, no more promo overwhelm, allowing our customers to have the space, tools, and
-                    opportunity to shop for the many great offers and products suitable for their needs.
-                    <br><br>
-                    The team and the customers were very happy with the new redesign. There was an <b>increase in
-                        traffic
-                        by 29%</b> and the <b>bounce rate dropped by 63%</b>. The customers showed they understood the
-                    purpose of the
-                    BBM section in a shorter amount of time, and we were able to see customers navigate into the
-                    sub-categories which in turn created higher conversion for the BBM category.
-                </p>
             </div>
-            <div class="header--sub">
+            <p>
+                During my short and exciting time at Best Buy Canada, I worked as an Experience Designer on the
+                eCommerce focusing on computing, imagine, and mobile products. We shipped new and improved weekly
+                experiences for customers with the help of business specialists, copywriters, UX designers, and
+                regular weekly meetings with all the digital designers at Best Buy. We worked on major product
+                launches for Apple, Samsung, Microsoft, and more. A big challenge we had during my time at Best Buy
+                involved improving the Best Buy Mobile section.
+                <br><br>
+                As customers landed on the BBM page, they would be overwhelmed with options and promotions resulting
+                in a high bounce rate and the many promotions, products, and new offers ignored. This was becoming a
+                major issue as copy and promotion were no longer helping create conversion but rather building a
+                bigger barrier with our customers. We spent some time with stakeholders and other team members to
+                identify this problem, our KPI’s, and worked together to create wireframes that would eventually
+                become the solution.</p>
+            <div class="row">
+                <div class="column-50">
+                    <p><b>Before</b></p>
+                </div>
+                <div class="column-50">
+                    <p><b>After</b></p>
 
+                </div>
             </div>
+            <div class="row">
+                <div class="column-50">
+                    <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/bestbuyca/bbym-before.png"
+                        class="modalImg">
+                </div>
+                <div class="column-50">
+                    <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/bestbuyca/bbym-after.png"
+                        class="modalImg">
+                </div>
+            </div>
+            <br><br>
+            <p>The solution became a new, efficient, clean redesign. The BBM page now having narrowed, simpler
+                navigation, no more promo overwhelm, allowing our customers to have the space, tools, and
+                opportunity to shop for the many great offers and products suitable for their needs.
+                <br><br>
+                The team and the customers were very happy with the new redesign. There was an <b>increase in
+                    traffic by 29%</b> and the <b>bounce rate dropped by 63%</b>. The customers showed they
+                understood the
+                purpose of the
+                BBM section in a shorter amount of time, and we were able to see customers navigate into the
+                sub-categories which in turn created higher conversion for the BBM category.
+            </p>
         </main>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
         <!-- footer -->
         <div class="footer-wrapper">
             <div class="footer-items">
@@ -87,15 +109,38 @@
             </div>
         </div>
     </div>
+
     <!--main wrapper end-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        function autorun() {
+    <!-- Modal script-->
+    <script>
+        // create references to the modal...
+        var modal = document.getElementById('myModal');
+        // to all images -- note I'm using a class!
+        var images = document.getElementsByClassName('modalImg');
+        // the image in the modal
+        var modalImg = document.getElementById("img01");
+        // and the caption in the modal
+        var captionText = document.getElementById("caption");
 
+        // Go through all of the images with our custom class
+        for (var i = 0; i < images.length; i++) {
+            var img = images[i];
+            // and attach our click listener for this image.
+            img.onclick = function (evt) {
+                console.log(evt);
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
         }
-        if (window.addEventListener) window.addEventListener("load", autorun, false);
-        else if (window.attachEvent) window.attachEvent("onload", autorun);
-        else window.onload = autorun;
+
+        var span = document.getElementsByClassName("close")[0];
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
     </script>
 </body>
 
