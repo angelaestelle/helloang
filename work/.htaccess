@@ -1,0 +1,7 @@
+ErrorDocument 401 default
+<FilesMatch "gilead.html">
+AuthName "Confidential"
+AuthType Basic
+AuthUserFile .htpasswd
+require angela
+</FilesMatch>
