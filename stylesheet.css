@@ -103,9 +103,9 @@ p {
   font-family: "Work Sans", sans-serif;
   color: black;
   opacity: 0;
-  -webkit-animation: fadeIn 1s forwards;
-  -moz-animation: fadeIn 1s forwards;
-  animation: fadeIn 1s forwards;
+  -webkit-animation: fadeIn 0.5s forwards;
+  -moz-animation: fadeIn 0.5s forwards;
+  animation: fadeIn 0.5s forwards;
   animation-delay: 2s;
 }
 
@@ -113,6 +113,11 @@ p {
   font-family: "Work Sans", sans-serif;
   color: black;
   font-size: 1.4em;
+  opacity: 0;
+  -webkit-animation: fadeIn 1s forwards;
+  -moz-animation: fadeIn 1s forwards;
+  animation: fadeIn 1s forwards;
+  animation-delay: 2s;
 }
 
 b {
@@ -126,9 +131,9 @@ b {
   min-height: 100vh;
   margin: 0 auto;
   opacity: 0;
-  -webkit-animation: fadeIn 1s forwards;
-  -moz-animation: fadeIn 1s forwards;
-  animation: fadeIn 1s forwards;
+  -webkit-animation: fadeIn 0.5s forwards;
+  -moz-animation: fadeIn 0.5s forwards;
+  animation: fadeIn 0.5s forwards;
 }
 
 a {
@@ -154,10 +159,10 @@ a:hover {
   background-color: #fffee5;
   padding-top: 10px;
   opacity: 0;
-  -webkit-animation: fadeIn 1s forwards;
-  -moz-animation: fadeIn 1s forwards;
-  animation: fadeIn 1s forwards;
-  animation-delay: 1s;
+  -webkit-animation: fadeIn 0.5s forwards;
+  -moz-animation: fadeIn 0.5s forwards;
+  animation: fadeIn 0.5s forwards;
+  animation-delay: 2s;
 }
 
 /* NAV */
@@ -168,11 +173,12 @@ nav {
   font-family: gitan-latin, sans-serif;
   width: 100%;
   opacity: 0;
+  top: 0;
   background: #ffbcaa;
   text-align: center;
-  -webkit-animation: fadeIn 1s forwards;
-  -moz-animation: fadeIn 1s forwards;
-  animation: fadeIn 1s forwards;
+  -webkit-animation: fadeIn 0.5s forwards;
+  -moz-animation: fadeIn 0.5s forwards;
+  animation: fadeIn 0.5s forwards;
   animation-delay: 1s;
 }
 
@@ -307,6 +313,7 @@ h3 {
 }
 
 .h3-link a {
+  font-size: 2em;
   color: #fffee5;
   text-decoration: none !important;
 }
@@ -321,9 +328,9 @@ h3 {
 
 .header--sub {
   opacity: 0;
-  -webkit-animation: fadeIn 2s forwards;
-  -moz-animation: fadeIn 2s forwards;
-  animation: fadeIn 2s forwards;
+  -webkit-animation: fadeIn 1s forwards;
+  -moz-animation: fadeIn 1s forwards;
+  animation: fadeIn 1s forwards;
   animation-delay: 2s;
 }
 
@@ -341,9 +348,9 @@ article {
   display: grid;
   grid-gap: 10px;
   opacity: 0;
-  -webkit-animation: fadeIn 2s forwards;
-  -moz-animation: fadeIn 2s forwards;
-  animation: fadeIn 2s forwards;
+  -webkit-animation: fadeIn 0.5s forwards;
+  -moz-animation: fadeIn 0.5s forwards;
+  animation: fadeIn 0.5s forwards;
   animation-delay: 2s;
 }
 
@@ -670,15 +677,6 @@ article {
     color: #343434;
     font-size: 2em;
     line-height: 34px;
-  }
-
-  h3 {
-    font-family: gitan-latin, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: #343434;
-    font-size: 1em;
-    line-height: 36px;
   }
 
   .h3-link a {
