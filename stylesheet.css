@@ -124,7 +124,6 @@ b {
   -webkit-animation: fadeIn 1s forwards;
   -moz-animation: fadeIn 1s forwards;
   animation: fadeIn 1s forwards;
-  animation-delay: 1s;
 }
 
 a {
@@ -318,6 +317,11 @@ article {
 .container {
   display: grid;
   grid-gap: 10px;
+  opacity: 0;
+  -webkit-animation: fadeIn 2s forwards;
+  -moz-animation: fadeIn 2s forwards;
+  animation: fadeIn 2s forwards;
+  animation-delay: 2s;
 }
 
 .left-half {
