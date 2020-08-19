@@ -112,8 +112,9 @@ p {
 .about-me {
   font-family: "Work Sans", sans-serif;
   color: black;
-  font-size: 1.4em;
+  font-size: 1.2em;
   opacity: 0;
+  hyphens: none;
   -webkit-animation: fadeIn 1s forwards;
   -moz-animation: fadeIn 1s forwards;
   animation: fadeIn 1s forwards;
