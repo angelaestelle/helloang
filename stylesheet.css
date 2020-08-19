@@ -104,6 +104,12 @@ p {
   color: black;
 }
 
+.about-me {
+  font-family: "Work Sans", sans-serif;
+  color: black;
+  font-size: 1.4em;
+}
+
 b {
   font-family: "work sans", sans-serif;
   font-weight: 600;
