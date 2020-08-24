@@ -7,8 +7,7 @@
     <!-- WORK SANS-->
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- INCONSOLATA FROM GOOGLE -->
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Angela Martinez</title>
@@ -23,11 +22,11 @@
     <!-- navigation -->
     <nav>
         <ul>
-            <li>
-                <a href="../index.html#work" class="underline" alt="Work">
+            <li class="nav-item">
+                <a href="../index.html" class="underline" alt="Work">
                     Work</a>
             </li>
-            <li>
+            <li class="nav-item">
                 <a href="../about.html" class="underline" alt="About">
                     About</a>
             </li>
@@ -36,10 +35,10 @@
     <!--wrapper-->
     <div class="wrapper">
         <main>
-            <span class="badge-progress">
-                In Progress
-            </span>
-            <div class="landing__h1--red" style="margin-top: 10px;">
+            <div class="badge-progress">
+                <span id="badge-txt">In Progress</span>
+            </div>
+            <div>
                 <h1>
                     CCNC-SJ
                 </h1>
@@ -175,64 +174,24 @@
                         class="modalImg" />
                 </div>
             </div>
-
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-                <span class="close">&times;</span>
-                <img class="modal-content" id="img01">
-                <div id="caption"></div>
-            </div>
-
         </main>
-        <!-- footer -->
-        <div class="footer-wrapper">
-            <div class="footer-items">
-                <ul>
-                    <li>
-                        <a href="http://instagram.com/angelaestelle" class="underline" alt="Work">
-                            Instagram</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/angelae-martinez/" class="underline" alt="About">
-                            LinkedIn</a>
-                    </li>
-                </ul>
+
+        <footer>
+            <div class="footer-wrapper">
+                <span class="footer-item"><a href="http://instagram.com/angelaestelle">Instagram</a></span>
+                <span class="footer-item"><a href="https://www.linkedin.com/in/angelae-martinez/">LinkedIn</a></span>
             </div>
-        </div>
+        </footer>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
     </div>
 
-    <!--main wrapper end-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-
-    <script>
-        // create references to the modal...
-        var modal = document.getElementById('myModal');
-        // to all images -- note I'm using a class!
-        var images = document.getElementsByClassName('modalImg');
-        // the image in the modal
-        var modalImg = document.getElementById("img01");
-        // and the caption in the modal
-        var captionText = document.getElementById("caption");
-
-        // Go through all of the images with our custom class
-        for (var i = 0; i < images.length; i++) {
-            var img = images[i];
-            // and attach our click listener for this image.
-            img.onclick = function (evt) {
-                console.log(evt);
-                modal.style.display = "block";
-                modalImg.src = this.src;
-                captionText.innerHTML = this.alt;
-            }
-        }
-
-        var span = document.getElementsByClassName("close")[0];
-
-        span.onclick = function () {
-            modal.style.display = "none";
-        }
-
-    </script>
+    <script src="../index.js"></script>
 </body>
 
 </html>

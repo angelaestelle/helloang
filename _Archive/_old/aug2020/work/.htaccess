@@ -1,0 +1,4 @@
+AuthType Basic 
+AuthName "Gilead - Password Protected" 
+AuthUserFile .htpasswd 
+require angela
