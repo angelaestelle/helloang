@@ -605,6 +605,16 @@ nav {
   /* Extra small devices (phones, 600px and down) */
 
   @media screen and (max-width: 680px) {
+
+    body{  
+      margin: 0 auto;
+      cursor: auto;
+    }
+
+    .cursor {
+      visibility: hidden;
+    }
+
     .columns .column {
       flex-basis: 100%;
       margin: 0 0 5px 0;
