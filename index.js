@@ -1,3 +1,24 @@
+/* CURSOR */
+
+const cursor = document.querySelector(".cursor");
+document.addEventListener("mousemove", (e) => {
+  cursor.setAttribute(
+    "style",
+    "top: " + (e.pageY - 0) + "px; left: " + (e.pageX - 0) + "px;"
+  );
+});
+
+document.addEventListener("click", (e) => {
+  console.log(e.target);
+  cursor.classList.add("click");
+
+  setTimeout(() => {
+    cursor.classList.remove("click");
+  }, 500);
+});
+
+/* MODAL */
+
 // create references to the modal...
 var modal = document.getElementById("myModal");
 // to all images -- note I'm using a class!

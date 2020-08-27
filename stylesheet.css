@@ -1,5 +1,6 @@
 body{  
   margin: 0 auto;
+  cursor: none;
 }
 
 html {
@@ -17,6 +18,37 @@ html {
     rgba(255, 255, 238, 1) 100%
   ) fixed;
 }
+
+/* CURSOR */
+
+.cursor {
+  z-index: 2;
+  pointer-events: none;
+  position:absolute;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  mix-blend-mode: exclusion;
+  background: #fff;
+}
+
+.cursor.click {
+  animation: click .3s ease-in-out;
+}
+
+@keyframes click {
+  0% {
+    transform: scale(1);
+  }
+  5% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+ 
 
 ::-moz-selection { /* Code for Firefox */
   color: #F62B2B;
@@ -131,8 +163,8 @@ a:visited {
 
 nav {
   display: block;
+  z-index: 1;
   position: fixed;
-  z-index: 999;
   text-align: center;
   width: 100%;
   top: 0;
