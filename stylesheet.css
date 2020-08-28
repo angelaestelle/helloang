@@ -1,9 +1,12 @@
 body{  
   margin: 0 auto;
   cursor: none;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
 }
 
 html {
+  scroll-behavior: smooth;
   min-height: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -179,14 +182,15 @@ nav {
 
   nav ul {
     list-style-type: none;
+    padding: 0;
+    text-align: center;
   }
 
   nav ul li {
     font-family: gitan-latin, sans-serif;
-
     display: inline;
-    padding: 0;
     padding: 10px;
+
   }
 
   .nav-item {
@@ -197,7 +201,6 @@ nav {
     color: #0400D9;
     text-decoration: none;
     font-weight: 400;
-    width: auto;
   }
 
   nav ul li a:hover {
@@ -427,6 +430,7 @@ nav {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(76, 56, 51, 0.9); /* Black w/ opacity */
+    animation: fadeIn 1s ease-in-out forwards;
   }
   /* Modal Content (image) */
   .modal-content {
@@ -602,6 +606,19 @@ nav {
   /* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES */
   /* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES */
 
+  /* Reduced motion – scalling/panning large elements */
+  @media (prefers-reduced-motion) {
+    html {
+    scroll-behavior: auto;
+    }
+  }
+
+  @media screen and (prefers-reduced-motion: reduce) {
+    html {
+    scroll-behavior: auto;
+    }
+  }
+
   /* Extra small devices (phones, 600px and down) */
 
   @media screen and (max-width: 680px) {
@@ -609,6 +626,11 @@ nav {
     body{  
       margin: 0 auto;
       cursor: auto;
+    }
+
+    .big-h1 {
+      font-size: 3em;
+      line-height: 42px;
     }
 
     .cursor {
