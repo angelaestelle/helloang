@@ -770,7 +770,7 @@ ul {
   .wrapper-about {
     margin: 0 auto;
     height: 965px;
-    max-width: 900px;
+    max-width: 100%;
     overflow: hidden;
   }
 
@@ -945,7 +945,7 @@ ul {
   .wrapper-about {
     margin: 0 auto;
     height: 965px;
-    max-width: 1200px;
+    max-width: 100%;
     overflow: hidden;
   }
 
