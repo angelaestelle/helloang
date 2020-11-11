@@ -1,206 +1,176 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="../stylesheet.css"
+      media="screen, projection"
+    />
 
-<head>
-    <!--GITAN font from Typekit-->
-    <link rel="stylesheet" href="https://use.typekit.net/bcg2qcu.css">
-    <!-- WORK SANS-->
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <!-- INCONSOLATA FROM GOOGLE -->
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;600&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Angela Martinez</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
-    <link rel="stylesheet" href="../stylesheet.css" type="text/css">
-    <link rel="icon" href="../images/sparkles.png" type="image/gif" sizes="16x16">
+    <!-- TYPFACES -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
 
-<body>
-    <div class="cursor"></div>
+    <div class="project-wrapper">
+      <!--NAVIGATION-->
+      <nav>
+        <a href="../index.html" class="nav-item">Work</a>
+        <a href="../about.html" class="nav-item">About me</a>
+      </nav>
 
-    <!-- navigation -->
-    <nav>
-        <ul>
-            <li class="nav-item">
-                <a href="../index.html" class="underline" alt="Work">
-                    Work</a>
-            </li>
-            <li class="nav-item">
-                <a href="../about.html" class="underline" alt="About">
-                    About</a>
-            </li>
-        </ul>
-    </nav>
-    <!--wrapper-->
-    <div class="wrapper">
-        <main>
-            <div class="landing__h1--red" style="margin-top: 10px;">
-                <h1>
-                    FM28.co
-                </h1>
-                <p>
-                    Celina reached out to me in the summer of 2019 with her idea of creating an artist collective based
-                    out of LA, operating globally. She wanted to curate a collective of multifaceted artists and
-                    entrepreneurs. This site is meant as a vessel for those interested in joining and representing <a
-                        href="https://www.fm28.co/" class="underline-2">the FM28
-                        community.</a></p>
-                <p>
-                    <b>Sketches & Wireframes</b>
-                    <br><br>
-                    The information on this site is contained and minimal, so the design had to reflect that while using
-                    visuals to fill up the space. The landing page was pretty straight forward – navigation, logo,
-                    footer... however for the integral pages such as Submissions and Street Team, I was able to explore
-                    a few options. I also had to keep asking myself, how many images is too many? Does that become a
-                    barrier for the user when they fill out forms? Is that even useful for people? Given the site was
-                    very limited in info and assets, I had to improvise.
-                    <br><br>
-                    What made it fun is that each page was encouraged to have its own differences such as visual
-                    composition, the type of media used, and the way images looked. For the Street Team page, I wanted
-                    to
-                    involve something humanly yet anarchic (not pop-up windows!), high energy, and rebellious, which is
-                    why we ended up going
-                    with a black & white video background of a riot.
-                    <br>
-                <div class="row">
-                    <div class="column-33">
-                        <img src="../images/fm28/landing-sketch.jpg" class="modalImg">
-                    </div>
-                    <div class="column-33">
-                        <img src="../images/fm28/submissions-sketch.jpg" class="modalImg">
-                    </div>
-                    <div class="column-33">
-                        <img src="../images/fm28/streetteam-sketch.jpg" class="modalImg">
-                    </div>
-                    <div class="row">
-                        <div class="column-33">
-                            <img src="../images/fm28/FM28-landing-wire.jpg" class="modalImg">
-                        </div>
-                        <div class="column-33">
-                            <img src="../images/fm28/FM28-streetteam-wire.jpg" class="modalImg">
-                        </div>
-                        <div class="column-33">
-                            <img src="../images/fm28/FM28-contact.jpg" class="modalImg">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column-100">
-                            <img src="../images/fm28/FM28-submissions-wire.jpg" class="modalImg">
-                        </div>
-                    </div>
-                    <p><b>SquareSpace as the CMS</b>
-                        <br><br>
-                        We went with SquareSpace as a CMS as it was simple to integrate forms, third party API’s,
-                        updating
-                        content blocks, and injecting custom CSS. We worked together back-and-forth on several layout
-                        options – we went with what we currently have as the colour scheme, a high energy video of a
-                        riot
-                        from Ukraine, and early 2000’s spam windows as it aligned with the look and feel of cyber-artsy
-                        apocalyptic
-                        propaganda FM28 wanted to embrace. We also recognized we didn't want to basically image-vomit on
-                        our
-                        users unless it actually were helpful. For this project, it is entirely decorative and meant to
-                        close up
-                        any extra space.</p>
-                    <br>
-                    <div class="row">
-                        <div class="column-50">
-                            <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/fm28-home.png"
-                                class="modalImg">
-                        </div>
-                        <div class="column-50">
-                            <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/fm28-about.png"
-                                class="modalImg">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column-50">
-                            <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/fm28-contact.png"
-                                class="modalImg">
-                        </div>
-                        <div class="column-50">
-                            <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/fm28-streetteam.png"
-                                class="modalImg">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column-100">
-                            <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/fm28-submissions.png"
-                                class="modalImg">
-                        </div>
-                    </div>
-                    <p>
-                        <b>Different assets for each page</b>
-                        <br><br>
-                        All kinds of visuals were instrumental for the site. Throughout the course our
-                        dialogue had evolved from "use as many images as possible!" to "let's keep it minimum so
-                        it doesn't overwhelm people."</p>
+      <!-- OPENING SECTION -->
 
-                    <p>All of the assets were designed by myself, with exception of the riot video on the Street Team
-                        page. All moving images on the site are GIFs as they perform faster, easier to loop, and run
-                        upon page load.
-                    </p>
-                    <br>
-                </div>
-                <div class="row">
-                    <div class="column-100">
-                        <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/FM28-rotate.gif"
-                            class="modalImg" style="width: 40%; display: block; margin: 0 auto;">
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class=" column-33">
-                        <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/FM28-TIMERUNNINGOUT.gif"
-                            class="modalImg">
-                    </div>
-                    <div class="column-33">
-                        <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/WANTTOPLAY.gif"
-                            class="modalImg">
-                    </div>
-                    <div class="column-33">
-                        <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/FM28-JOINNOW-final-desktop.gif
-                    " class="modalImg">
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="column-100">
-                        <img src="https://helloang2020.s3.ca-central-1.amazonaws.com/fm28/SUBMISSIONS-FLOAT-BG.gif"
-                            class="modalImg" style="width: 100%; display: block; margin: 0 auto;">
-                    </div>
-                </div>
-            </div>
+      <div class="project-hero">
+        <h2>FM28.co</h2>
 
+        <img src="../images/fm28_cover_2.png" />
+      </div>
 
-        </main>
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
-            <div id="caption"></div>
+      <!-- INTRODUCTION SECTION -->
+      <div class="full-row"></div>
+      <div class="grid-container">
+        <div class="left">
+          <img
+            src="../images/fm28-mobile-desktop-combo.png"
+            style="width: 95%"
+          />
         </div>
+        <div class="right">
+          <h2>About the project</h2>
+          Designing the website for <a href="http://fm28.co">Fm28.co</a>, which is an artist collective based out of Los Angeles.
+        </div>
+      </div>
 
-        <!-- footer -->
-        <!-- footer -->
-        <footer>
-            <div class="footer-wrapper">
-                <span class="footer-item"><a href="http://instagram.com/angelaestelle">Instagram</a></span>
-                <span class="footer-item"><a href="https://www.linkedin.com/in/angelae-martinez/">LinkedIn</a></span>
-            </div>
-        </footer>
+      <!-- THE CHALLENGE & WHY -->
+      <div class="grid-container">
+        <div class="left">
+          <h2>The Challenge</h2>
+          CCNC wanted to improve the overall experience and design of their
+          Wordpress website. They had many conferences, panels, tools, and
+          campaigns lined up and they felt a large gap between them and their
+          users.
+        </div>
+        <div class="right">
+            <h2>The Solution</h2>
+            We gave the website a full visual overhaul that made it easy to
+            ingest plenty of new information for their users (young kids, mature
+            adults-seniors). Ideally the site would be easy to navigate, easy to
+            read on all devices, and visually easy to comprehrend between both
+            age groups.
+        </div>
+      </div>
+      <div class="section-spacer-50"></div>
+      <img
+      src="../images/fm28_landing_animation.gif"
+      class="center" id="ccnc_gif"
+    />
+      <div class="section-spacer-100"></div>
     </div>
 
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
+
+    <!-- SITE MAPS -->
+    <div class="project-wrapper-alt-section">
+      <div class="project-wrapper">
+        <div class="section-spacer-100"></div>
+        <div class="grid-container-100">
+          <div class="full-row">
+            <h2>Site Map</h2>
+            The site map was simple - FM28 just needed its core pages to get itself up and running. 
+          </div>
+          <h3 style="text-align: center">Old site map</h3>
+          <img src="../images/fm28-sitemap.jpg" class="center" />
+        </div>
+      </div>
+      <div class="section-spacer-100"></div>
     </div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-    <script src="../index.js"></script>
-</body>
+    <!-- WIREFRAMES -->
+    <div class="project-wrapper">
+      <div class="section-spacer-100"></div>
+      <div class="grid-container-100">
+        <div class="full-row">
+          <h2>Wireframing</h2>
+          I worked around one of the director’s biggest requests for the site:
+          don’t make the change look too drastic. So, I worked around the
+          already existing layout structure and columns so the CCNC team doesn’t
+          feel like they have to relearn how to use their website. For the most
+          part, information was being shuffled.
+        </div>
+        <img src="../images/fm28_wireframes.png" class="center" />
+      </div>
+    </div>
+    <div class="section-spacer-100"></div>
 
+    <!-- FINAL PRODUCT -->
+    <div class="project-wrapper-alt-section">
+      <div class="project-wrapper">
+        <div class="section-spacer-100"></div>
+        <div class="grid-container-100">
+          <div class="full-row">
+            <h2>Final product</h2>
+            Reorganizing the entire site was instrumental to improving its
+            usability. CCNC has so much important information for such a wide
+            audience, this first step was foundational. We removed several
+            sections and shuffled them where they would make more sense for the
+            users. I spent a few days speaking with their team about the
+            priorities and goals for each section which, in turn, resulted in a
+            more cohesive and concise site structure. 
+            <br>
+            You can view it <a href="ccncsj.ca">here at CCNCSJ.ca</a>
+          </div>
+        </div>
+        <div class="section-spacer-50"></div>
+
+          <div class="full-row" style="text-align: center;">
+            <h2 style="color: #000C75;">Submissions page</h2>
+            Suspendisse pulvinar sagittis urna ut congue. Curabitur sit amet sem augue. Curabitur vitae neque in diam pulvinar condimentum eu non lacus. 
+          </div>
+          <div class="section-spacer-50"></div>
+          <img src="../images/fm28_submissions.png" class="center" />
+        </div>
+        <div class="section-spacer-50"></div>
+        <div class="full-row" style="text-align: center;">
+            <h2 style="color: #000C75;">Contact page</h2>
+            Suspendisse pulvinar sagittis urna ut congue. Curabitur sit amet sem augue. Curabitur vitae neque in diam pulvinar condimentum eu non lacus. 
+          </div>
+          <div class="section-spacer-50"></div>
+
+        <img src="../images/fm28_contact.png" class="center" />
+      </div>
+      </div>
+      <div class="section-spacer-100"></div>
+
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js" async defer></script>
+  </body>
 </html>
