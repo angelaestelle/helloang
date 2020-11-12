@@ -313,7 +313,6 @@ ul {
   margin-top: 145px;
   margin-bottom: 150px;
   height: 630px;
-  border-radius: 5px;
 }
 
 .project-hero img {
@@ -460,6 +459,13 @@ ul {
     background-color: #e15340;
     color: #fff;
     padding-top: 100px;
+  }
+
+  .nav-wrapper {
+    max-width: 300px;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   /* PROJECT SECTION */
@@ -639,8 +645,9 @@ ul {
   .project-hero {
     position: relative;
     display: block;
-    margin-top: 100px;
-    height: auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    height: 100px;
   }
 
   .project-hero img {
@@ -817,7 +824,6 @@ ul {
     margin-top: 100px;
     margin-bottom: 150px;
     height: 400px;
-    border-radius: 5px;
   }
 
   .project-hero img {
@@ -1009,9 +1015,8 @@ ul {
     position: relative;
     display: block;
     margin-top: 100px;
-    margin-bottom: 150px;
-    height: 400px;
-    border-radius: 5px;
+    margin-bottom: 100px;
+    height: 300px;
   }
 
   .project-hero img {
@@ -1180,8 +1185,7 @@ ul {
     display: block;
     margin-top: 145px;
     margin-bottom: 150px;
-    height: 630px;
-    border-radius: 5px;
+    height: 600px;
   }
 
   .project-hero img {
