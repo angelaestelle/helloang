@@ -421,26 +421,13 @@ ul {
 /* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES */
 /* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES */
 
-/* Reduced motion – scalling/panning large elements */
-@media (prefers-reduced-motion) {
-  html {
-    scroll-behavior: auto;
-  }
-}
-
-@media screen and (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-}
-
 /* Extra small devices (phones, 600px and down) */
 
 @media screen and (max-width: 680px) {
   /* WRAPPERS, TABLES AND SHIT */
 
   .header-wrapper {
-    height: 742px;
+    height: 650px;
     max-width: 320px;
     overflow: hidden;
     padding-left: 20px;
@@ -947,7 +934,7 @@ ul {
   /* WRAPPERS, TABLES AND SHIT */
 
   .header-wrapper {
-    height: 760px;
+    height: 742px;
     max-width: 900px;
     padding-left: 40px;
     padding-right: 40px;
