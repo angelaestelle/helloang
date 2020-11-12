@@ -640,9 +640,7 @@ ul {
     position: relative;
     display: block;
     margin-top: 100px;
-    margin-bottom: 20px;
-    height: 400px;
-    border-radius: 5px;
+    height: auto;
   }
 
   .project-hero img {
