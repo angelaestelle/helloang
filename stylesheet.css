@@ -550,6 +550,51 @@ ul {
     padding-top: 50px;
   }
 
+  /* NAVIGATION */
+
+  nav {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  nav .nav-item {
+    text-decoration: none;
+    font-family: "Playfair Display", georgia, serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-right: 20px;
+    color: #2c685b;
+  }
+
+  nav .nav-item:hover {
+    color: #e15340;
+    animation: 0.25s fadeIn forwards ease-in-out;
+  }
+
+  .current {
+    font-family: "Playfair Display", georgia, serif;
+    color: #e15340;
+    text-decoration: none;
+  }
+
+  .next {
+    font-family: "Playfair Display", georgia, serif;
+    color: #2c685b;
+    text-decoration: none;
+  }
+
+  .next:hover {
+    color: #e15340;
+    animation: 0.25s fadeIn forwards ease-in-out;
+  }
+
+  .social {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #2c685b;
+  }
+
   /*LISTS*/
 
   ul {
