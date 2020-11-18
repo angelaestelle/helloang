@@ -360,9 +360,6 @@ ul {
     "left left right right"
     ". . . ."
     ". . . .";
-  opacity: 0;
-  animation: 1s assetFade forwards ease-in-out;
-  animation-delay: 2s;
 }
 
 .grid-container-100 {
