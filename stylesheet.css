@@ -31,6 +31,12 @@
 
 /**************************/
 
+#construction {
+  color: #e15340;
+  height: 55px;
+  font-size: 0.8em;
+}
+
 body {
   margin: 0 auto;
   /* DEFAULT FONT STYLE */
@@ -542,7 +548,7 @@ ul {
 
   p {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 34px;
   }
 
@@ -1236,8 +1242,8 @@ ul {
   }
 
   p {
-    max-width: 1050px;
-    font-size: 20px;
+    max-width: 900px;
+    font-size: 18px;
   }
 
   .page-header {
