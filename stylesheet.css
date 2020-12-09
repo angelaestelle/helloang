@@ -73,6 +73,9 @@ body {
   max-height: 100%;
   max-width: 1200px;
   overflow: hidden;
+  opacity: 0;
+  animation: 1s assetFade forwards ease-in-out;
+  animation-delay: 0.65s;
 }
 
 .project-wrapper-alt-section {
