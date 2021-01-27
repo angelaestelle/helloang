@@ -356,6 +356,14 @@ ul {
   height: 100%;
 }
 
+.project-bg-fcb-do {
+  background: url("images/FCB-DO-cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 100%;
+}
+
 /* PROJECT COVERS*/
 
 /* PROJECT PAGES */
