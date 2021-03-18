@@ -683,6 +683,14 @@ ul {
     width: 100%;
   }
 
+  #visual-reqs {
+    display: block;
+  }
+
+  #visual-reqs-d {
+    display: none;
+  }
+
   /* PROJECT COVERS*/
 
   .project-bg-1 {
@@ -857,6 +865,14 @@ ul {
 
   #ccnc_gif {
     width: 100%;
+  }
+
+  #visual-reqs {
+    display: none;
+  }
+
+  #visual-reqs-d {
+    display: block;
   }
 
   /* PROJECT COVERS*/
@@ -1050,6 +1066,14 @@ ul {
 
   #ccnc_gif {
     width: 100%;
+  }
+
+  #visual-reqs {
+    display: none;
+  }
+
+  #visual-reqs-d {
+    display: block;
   }
 
   /* PROJECT COVERS*/
