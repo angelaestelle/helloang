@@ -49,6 +49,17 @@ body {
 
 /* WRAPPERS, TABLES AND SHIT */
 
+video {
+  width: 100% !important;
+  height: auto !important;
+}
+
+hr {
+  border-top: 1px solid #101a7c;
+  border-bottom: none;
+  width: 60%;
+}
+
 .header-wrapper {
   height: 742px;
   max-width: 1200px;
@@ -358,6 +369,14 @@ ul {
 
 .project-bg-fcb-do {
   background: url("images/FCB-DO-cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 100%;
+}
+
+.project-bg-fe3h {
+  background: url("images/fe-cover-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
