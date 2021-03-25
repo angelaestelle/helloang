@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="../stylesheet.css"
+      media="screen, projection"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- TYPFACES -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <!--NAVIGATION-->
+    <div class="nav-wrapper">
+      <nav>
+        <a href="../index.html" class="nav-item">Work</a>
+        <a href="../about.html" class="nav-item">About me</a>
+        <a href="hpnotiq-iconiq.html" class="nav-item"
+          ><span class="current"
+            >Usability Case Study: Fire Emblem: 3 Houses
+          </span></a
+        >
+      </nav>
+    </div>
+
+    <!-- OPENING SECTION -->
+    <div class="project-wrapper">
+      <div class="project-hero">
+        <img src="../images/fe-cover-image.png" />
+      </div>
+
+      <!-- SUMMARY -->
+      <div class="full-row">
+        <h2>Summary</h2>
+        <p>
+          People play games to have fun. In order for a game to be playable,
+          there's a number of important benchmarks it needs to meet. In order
+          for a game to be equally playable by every demographic, there are even
+          more benchmarks that need to be met. Across many factors, such as
+          budget, planning, timing, priority, these don't always get met. Often
+          times there are marks missed and are left by the community to publicly
+          identify on their own, in hopes for an update or a better version on
+          future releases.
+        </p>
+        <p>
+          I'm taking it upon myself to identify some of these missed marks from
+          the lens of a UX/UI designer that plays video games all the time. In
+          this case, I'll be analyzing and breaking down some of the usability
+          misses of my favourite fantasy strategy RPG
+          <a
+            href="https://www.nintendo.com/games/detail/fire-emblem-three-houses-switch/"
+            >Fire Emblem: Three Houses</a
+          >
+          by Intelligent Systems (Nintendo). I will be measuring each problem
+          and recommendation across accessibility and design principles using
+          the unmoderated testing method (well, I guess I would also be the
+          moderator).
+        </p>
+      </div>
+
+      <!-- FE: 3H -->
+      <div class="full-row">
+        <h2>Fire Emblem: Three Houses</h2>
+        <p>
+          <a href="https://www.intsys.co.jp/english/">Intelligent Systems</a> is
+          a video game developer out of Japan known for the Fire Emblem
+          franchise, along with Mario Bros, Paper Mario, Pokemon Puzzle
+          Challenge, and more. Fire Emblem is a tactical strategy RPG played
+          from the third-person perspective. The setting takes place in various
+          medieval—style regions, with characters wielding swords, lances, bows,
+          and magic. The protagonist is often from royalty or a mercenary
+          usually tied to something magical or other—wordly.
+        </p>
+      </div>
+    </div>
+
+    <!-- WHY IS USABILITY IMPORTANT -->
+    <div class="project-wrapper">
+      <div class="grid-container-100">
+        <div class="full-row">
+          <h2>What is usability and why is it important?</h2>
+          <p>
+            Usability is a simple foundational concept of design, yet so
+            commonly it gets left out or implemented in portions. Usability is
+            how somebody can accomplish a given task or goal in your product
+            with maximum efficacy and ease. Good usability is guided by
+            intentional research and user tests, with one goal in mind: to make
+            this product easy to use as possible for the intended user.
+          </p>
+          <p>
+            Ease of use can be a major game—changer when it comes to putting a
+            product ahead of the competition. If somebody learns the RPG game
+            they are playing doesn't have a helpful map legend or colours to
+            differentiate important elements, there are several other RPGs that
+            do.
+          </p>
+          <p>
+            Having usability shortcomings — which, commonly, are intentional —
+            can be a serious risk as it reduces the fun the user intended to
+            experience. This gives them more of a reason to turn the game off
+            and invest their attention elsewhere. Typically if the user is
+            sensitive to usability, this leaves a lasting impression and they'll
+            know to share with others how frustrating the product is. Not good.
+          </p>
+        </div>
+        <img
+          src="../images/fe-lesson-screenshot.png"
+          class="center"
+          alt="Byleth, the main character, teaching a lesson in Fire Emblem"
+        />
+      </div>
+ <div class="section-spacer-50"></div>
+    </div>
+
+    <!-- ANALYSIS -->
+    <div class="project-wrapper-alt-section">
+      <div class="project-wrapper">
+          <h2>Analysis</h2>
+ <!-- BODY TEXT -->
+          <div class="grid-container">
+            <div class="left">
+              <h3>Problem 1</h3>
+              Body text (especially in tutorial and for active quests) is quite small.
+            </div>
+            <div class="right">
+              <h3>Rating</h3>
+              <strong>Severe</strong> — all dialogue is voiced however for
+              someone hard of hearing, this could be detrimental as the game is
+              loaded with story and technical dialogue. During missions there
+              aren't as many voice overs but lots of text important for carrying
+              battle gameplay.
+            </div>
+          </div>
+          <div class="section-spacer-50"></div>
+
+          <img src="../images/fe3h_finishteaching 1.png" />
+          <p>The extra experience screen after you finish teaching a lesson.</p>
+        
+        <div class="section-spacer-50"></div>
+        <div class="grid-container">
+          <div class="left">
+            <img src="../images/fe3h_claude_teach 1.png" />
+          </div>
+          <div class="right">
+            <img src="../images/fe3h_felix_teatime 1.png" />
+          </div>
+        </div>
+        <div class="grid-container">
+          <div class="left">
+            <h3>Description</h3>
+            Often times the text box — even for wordy conversations — has a lot
+            of empty space. Even when hooked to a TV the dialogue text is very
+            small. Oddly enough its predecessors have larger text on the Gameboy
+            + DS games.
+          </div>
+          <div class="right">
+            <h3>Recommendation</h3>
+            Either they bump it up, or provide the option in the setting menu to
+            bump up the sizing by a few points.
+          </div>
+        </div>
+        <div class="grid-container-3col">
+          <div class="left">
+            <img
+            src="../images/fe-sacredstones.png"
+            class="center"
+            alt="Fire Emblem: Sacred Stones screenshot, reads As long as you dont try to stab me, I wont do a thing to harm you."
+          />
+          <p>
+            Fire Emblem: The Sacred Stones
+          </p>
+          </div>
+          <div class="middle">
+            <img
+            src="../images/fe-awakening.png"
+            class="center"
+            alt="Fire Emblem: Sacred Stones screenshot, reads As long as you dont try to stab me, I wont do a thing to harm you."
+          />
+          <p>
+            Fire Emblem: Awakening
+          </p>
+          </div>
+          <div class="right">
+            <img
+            src="../images/fe-gameboy.png"
+            class="center"
+            alt="Fire Emblem: Sacred Stones screenshot, reads As long as you dont try to stab me, I wont do a thing to harm you."
+          />
+          <p>
+            Fire Emblem Gameboy
+          </p>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="section-spacer-50"></div>
+      <hr>
+      <div class="section-spacer-50"></div>
+
+      <div class="project-wrapper">
+<!-- RESTARTING SUPPORT LIST -->
+        <div class="grid-container">
+          <div class="left">
+            <h3>Problem 2</h3>
+            Support screen restarting your position          </div>
+          <div class="right">
+            <h3>Rating</h3>
+            <strong>Medium priority</strong> — it’s more of a bad itch rather than a serious issue. what i worry is for those using accessibility tools, having to navigate over and over again is redundant knowing you are still on that character with multiple support convos.
+          </div>
+        </div>
+        <div class="section-spacer-50"></div>
+        <video width="1280" height="720" controls>
+          <source src="../images/fe3h_support_yuribalthus.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+        <p>In the beginning you can see the selector is on Yuri. After the interaction with Balthus is over, it returns the selector back to the top of the character support list.</p>
+      
+      <div class="grid-container">
+        <div class="left">
+          <h3>Description</h3>
+          If a character has multiple support convos, every time you finish one it brings you back to the top of the list rather than returning to the support screen with your most recent character selection. Gets redundant having to navigate back.
+        </div>
+        <div class="right">
+          <h3>Recommendation</h3>
+          Reorganizing the list based on existing support convos (prioritized first) alphabetically, then alphabetically for non-support convos. The point of the support screen is to interact with available supports - in my experience, you just want to clear the entire list of supports ASAP so you can progress.
+        </div>
+      </div>
+      </div>
+
+            
+      <div class="section-spacer-50"></div>
+      <hr>
+      <div class="section-spacer-50"></div>
+
+      <div class="project-wrapper">
+<!-- ANNOYING MAP -->
+        <div class="grid-container">
+          <div class="left">
+            <h3>Problem 3</h3>
+            Navigating the fast travel map feels unnatural         </div>
+          <div class="right">
+            <h3>Rating</h3>
+            <strong>Low priority</strong> — every room is still accessible using the map, you just have to follow a certain order. There are circle indicators and chat bubbles to signify characters that need interacting, followed by character imagery to provide more context. For people who tend to play games with a fast hand (me) the map navigation could use some efficacy.
+          </div>
+        </div>
+        <div class="section-spacer-50"></div>
+        <video width="1280" height="720" controls>
+          <source src="../images/fe3h_mapnavigation.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+      
+      <div class="grid-container">
+        <div class="left">
+          <h3>Description</h3>
+          Only moves using L, R, UP, DOWN. its finnicky and the movement between one area to another feels unnatural.        </div>
+        <div class="right">
+          <h3>Recommendation</h3>
+          Have a text list users can select and navigate through, organized by building and floor level. Will show list of people within each area and indicate if they haven't been interacted with yet. Currently the list on the right side allows you switch between character to facility description view, rather than allow you to navigate within the list itself. you can only navigate using the map.        </div>
+      </div>
+
+      <!-- OVER VIEW -->
+      <div class="full-row">
+        <h2>Overview</h2>
+        <p>
+          For the most part, FE: 3H is a very accessible, highly usable game with plenty of replay value — with exception to the unnecessarily small text (why?! why!!) — and rightfully so as it’s a tactical strategy RPG. Even though most of the game’s dialogue is voiced over, those with hard of hearing could find the ridiculously small text size a nuisance. I often like to play my Switch docked for my posture’s sake, but I had to make an exception for this game. My vision is pretty decent,  I’ve been fine without glasses, but I can’t help but still strain my eyes over the text. 
+        </p>
+        <p>
+          The large amount of content is not hard to track as the game has elements like calendars, actionable lists (like the support screen), active quest indicators, constrasting map icons, etc. however for those with processing issues still may have a challenge keeping track of it all. Fortunately, there are many ways the game assists you with time management.         
+        </p>
+        <p>
+          There are plenty of save slots and quick save features that make the difference, along with tutorials and the option to play in casual mode (where if a character falls in battle, they return once its over). Getting into the fine details of planning out class changes aren’t necessary, though there is a lot of opportunities to make the gameplay experience more complex.        
+        </p>
+        <p>
+          <strong>Visually, this game gets a 3 out of 5.</strong> The size 9pt text is a very basic shortfall and very unnecessary — I’m making the assumption the developers just didn’t think that one through, since the previous games have very large, legible text.        </p>
+        <p>
+          <strong>Auditory gets a 3 out of 5</strong> as there’s mostly contextual voiced dialogue outside of missions.        </p>
+        <p>
+          <strong>For motor skills, this game gets a 4 out of 5.</strong> It’s easy to take as much time as you need whether you’re on a mission or are off-duty. If you are off-duty running through the game’s monestary, there’s almost no way your character can get in danger (unless you accidentally end your session too soon and get right into a mission). The one QTE (quick time event) I can immediately recall is during fishing, which has an evident ring you're supposed to match up with the moving ring in order to pull in a bite.       </p>
+      </div>
+      </div>
+      <div class="section-spacer-100"></div>
+
+      <!-- NEXT PROJECT -->
+
+      <a href="destination-ontario.html" class="next-a"
+        ><div class="next-project"><h2>Next: Destination Ontario</h2></div></a
+      >
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js" async defer></script>
+  </body>
+</html>
