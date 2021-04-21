@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap");
 
+@font-face {
+  font-family: 'Moderat';
+  src: url('files/Moderat-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('files/Moderat-Regular-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('files/Moderat-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('files/Moderat-Bold-Italic.ttf') format('truetype') /* Safari, Android, iOS */
+
+}
+
 /*ANIMATIONS*/
 
 @keyframes fadeIn {
